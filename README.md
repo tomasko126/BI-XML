@@ -15,7 +15,7 @@ Here is the task assignment:
 >
 >Website: minimum number of pages: 4 - index and page for each country, higher number of pages for better clarity welcome but >not a condition
 >
->1 PDF Document - Generated with XSL-FO and Apache FOPä
+>1 PDF Document - Generated with XSL-FO and Apache FOP
 >
 >1 ePub eBook, similar to a website
 >
