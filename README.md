@@ -10,13 +10,13 @@ Goal of this subject was a semestral work, which consisted of various work with 
 Here is the task assignment:
 
 >For each country there will be a separate XML document. Documents will be linked to a single document using DTD. All parts of the project will be generated from this document, but each part of the project can be generated using a different XSLT, but you can also link it to a single XSLT.
-
+>
 >Project sections:
-
+>
 >Website: minimum number of pages: 4 - index and page for each country, higher number of pages for better clarity welcome but >not a condition
-
+>
 >1 PDF Document - Generated with XSL-FO and Apache FOPä
-
+>
 >1 ePub eBook, similar to a website
-
+>
 >XML country files validated with DTD and RelaxNG
