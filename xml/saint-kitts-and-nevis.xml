@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<country iso-code="kn">
+    <images>
+        <image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/maps/sc-map.gif"/>
+        <image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/locator/cam/sc_large_locator.gif"/>
+        <image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/flags/large/sc-lgflag.gif"
+               caption="Divided diagonally from the lower hoist side by a broad black band bearing two white, five-pointed stars; the black band is edged in yellow; the upper triangle is green, the lower triangle is red; green signifies the island's fertility, red symbolizes the struggles of the people from slavery, yellow denotes year-round sunshine, and black represents the African heritage of the people; the white stars stand for the islands of Saint Kitts and Nevis, but can also express hope and liberty, or independence and optimism"/>
+    </images>
+    <background>
+        Carib Indians occupied the islands of the West Indies for hundreds of years before the British began settlement
+        in 1623. In 1967, the island territory of Saint Christopher-Nevis-Anguilla became an associated state of the UK
+        with full internal autonomy. The island of Anguilla rebelled and was allowed to secede in 1971. The remaining
+        islands achieved independence in 1983 as Saint Kitts and Nevis. In 1998, a referendum on Nevis to separate from
+        Saint Kitts fell short of the two-thirds majority vote needed. Nevis continues in its efforts to separate from
+        Saint Kitts.
+    </background>
+    <geography coordinate-n="17 20" coordinate-w="62 45">
+        <location
+                value="Caribbean, islands in the Caribbean Sea, about one-third of the way from Puerto Rico to Trinidad and Tobago"/>
+        <map-references value="Central America and the Caribbean"/>
+        <area land="261" water="0" unit="sq km"/>
+        <area-comparative value="1.5 times the size of Washington, DC"/>
+        <land-boundaries value="0" unit="km"/>
+        <coastline value="135" unit="km"></coastline>
+        <maritime-claims value="measured from claimed archipelagic straight baselines" territorial-sea="12"
+                         contiguous-zone="24" exclusive-economic-zone="200" continental-shelf="200" unit="nm"/>
+        <climate
+                value="tropical, tempered by constant sea breezes; little seasonal temperature variation; rainy season (May to November)"/>
+        <terrain value="volcanic with mountainous interiors"/>
+        <elevation mean-elevation="N/A" lowest-point="Caribbean Sea, 0" highest-point="Mount Liamuiga, 1.156" unit="m"/>
+        <natural-resources value="arable land"/>
+        <land-use arable-land="19.2" permanent-crops="0.4" permanent-pasture="3.5" forest="42.3" other="34.6" unit="%"/>
+        <irrigated-land value="8 sq km"/>
+        <natural-hazards value="hurricanes (July to October)">
+        </natural-hazards>
+        <geography-note
+                value="smallest country in the Americas and Western Hemisphere; with coastlines in the shape of a baseball bat and ball, the two volcanic islands are separated by a 3-km-wide channel called The Narrows; on the southern tip of long, baseball bat-shaped Saint Kitts lies the Great Salt Pond; Nevis Peak sits in the center of its almost circular namesake island and its ball shape complements that of its sister island"/>
+    </geography>
+    <people-society>
+        <people>52715</people>
+        <nationality noun="Kittitian(s), Nevisian(s)" adjective="Kittitian, Nevisian"/>
+        <ethnic-groups>
+            <ethnic-group>British</ethnic-group>
+            <ethnic-group>Portuguese</ethnic-group>
+            <ethnic-group>Lebanese</ethnic-group>
+        </ethnic-groups>
+        <languages>
+            <language percentage="100">
+                English (official)
+            </language>
+        </languages>
+        <religions>
+            <religion percentage="20.6">Anglican</religion>
+            <religion percentage="19.1">Protestant</religion>
+            <religion percentage="6.7">Roman Catholic</religion>
+        </religions>
+        <age-structure
+                image="https://www.cia.gov/library/publications/the-world-factbook/graphics/population/SC_popgraph%202016.bmp"
+                image-title="Population pyramid">
+            <structure structure="0-14" percentage="20.32" male="5378" female="5332"/>
+            <structure structure="15-24" percentage="14.54" male="3689" female="3978"/>
+            <structure structure="25-54" percentage="44.6" male="12070" female="11441"/>
+            <structure structure="55-64" percentage="11.9" male="3130" female="3142"/>
+            <structure structure="65-over" percentage="8.64" male="2107" female="2448"/>
+        </age-structure>
+        <median-age male="35.2" female="34.8" unit="years"/>
+        <sex-ratio total-population="1" unit="male(s)/female">
+            <ratio value="1.02">
+                at birth
+            </ratio>
+            <ratio value="1.01">
+                0-14
+            </ratio>
+            <ratio value="0.94">
+                15-24
+            </ratio>
+            <ratio value="1.05">
+                25-54
+            </ratio>
+            <ratio value="1">
+                55-64
+            </ratio>
+            <ratio value="0.83">
+                65-over
+            </ratio>
+        </sex-ratio>
+    </people-society>
+    <government
+            type="federal parliamentary democracy (National Assembly) under a constitutional monarchy; a Commonwealth realm">
+        <country-name long-form="Federation of Saint Kitts and Nevis" short-form="Saint Kitts and Nevis"
+                      former="Federation of Saint Christopher and Nevis"
+                      ethymology='Saint Kitts was, and still is, referred to as Saint Christopher and this name was well established by the 17th century (although who first applied the name is unclear); in the 17th century a common nickname for Christopher was Kit or Kitt, so the island began to be referred to as "Saint Kitts Island" or just "Saint Kitts"; Nevis is derived from the original Spanish name "Nuestra Senora de las Nieves" (Our Lady of the Snows) and refers to the white halo of clouds that generally wreathes Nevis Peak'/>
+        <capital coordinate-n="17 18" coordinate-w="62 43" time="UTC-4">
+            Basseterre
+        </capital>
+        <administrative-divisions>
+            14 parishes; Christ Church Nichola Town, Saint Anne Sandy Point, Saint George Basseterre, Saint George
+            Gingerland, Saint James Windward, Saint John Capesterre, Saint John Figtree, Saint Mary Cayon, Saint Paul
+            Capesterre, Saint Paul Charlestown, Saint Peter Basseterre, Saint Thomas Lowland, Saint Thomas Middle
+            Island, Trinity Palmetto Point
+        </administrative-divisions>
+        <independence date="19 September 1983" note="from the UK"/>
+        <national-holiday>
+            <holiday date="19 September" name="Independence Day"/>
+        </national-holiday>
+        <constitution>
+            several previous (preindependence); latest presented 22 June 1983, effective 23 June 1983
+        </constitution>
+        <legal-system>
+            English common law
+        </legal-system>
+        <international-law>
+            has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction
+        </international-law>
+        <citizenship by-birth="yes" by-descent-only="yes" dual-citizenship-recognized="yes"
+                     residency-requirement-for-naturalization="14 years"/>
+        <suffrage>
+            18 years of age; universal
+        </suffrage>
+        <executive-branch>
+            <chief-of-state
+                    value="Queen ELIZABETH II (since 6 February 1952); represented by Governor General Samuel W.T. SEATON (since 2 September 2015); note - SEATON was acting Governor General from 20 May to 2 September 2015"/>
+            <head-of-government
+                    value="President Joko WIDODO (since 20 October 2014); Vice President Jusuf KALLA (since 20 October 2014)"/>
+            <cabinet value="Cabinet appointed by governor general in consultation with prime minister"/>
+            <elections-appointments
+                    value="the monarchy is hereditary; governor general appointed by the monarch; following legislative elections, the leader of the majority party or majority coalition usually appointed prime minister by governor general; deputy prime minister appointed by governor general"/>
+        </executive-branch>
+        <legislative-branch>
+            <description>
+                unicameral National Assembly (14 seats; 11 members directly elected in single-seat constituencies by
+                simple majority vote and 3 appointed by the governor general; members serve 5-year terms)
+            </description>
+            <elections>last held on 16 February 2015 (next to be held by 2020)</elections>
+            <election-result>
+                percent of vote by party - SKNLP 39.3%, PAM 27.9% CCM 13.0% NRP 10.8%, PLP 9.0%; seats by party - PAM 4,
+                SKNLP 3, CCM 2, NRP 1, PLP 1
+            </election-result>
+        </legislative-branch>
+        <judicial-branch>
+            <highest-courts>
+                the Eastern Caribbean Supreme Court (ECSC) is the superior court of the Organization of Eastern
+                Caribbean States; the ECSC - headquartered on St. Lucia - consists of the Court of Appeal - headed by
+                the chief justice and 4 judges - and the High Court with 18 judges; the Court of Appeal is itinerant,
+                travelling to member states on a schedule to hear appeals from the High Court and subordinate courts;
+                High Court judges reside at the member states with 2 assigned to Saint Kitts and Nevis; note - the ECSC
+                in 2003 replaced the Judicial Committee of the Privy Council in London as the final court of appeal on
+                Saint Kitts and Nevis; Saint Kitts and Nevis is also a member of the Caribbean Court of Justice
+            </highest-courts>
+            <judge-selection>
+                chief justice of Eastern Caribbean Supreme Court appointed by Her Majesty, Queen ELIZABETH II; other
+                justices and judges appointed by the Judicial and Legal Services Commission, an independent body of
+                judicial officials; Court of Appeal justices appointed for life with mandatory retirement at age 65;
+                High Court judges appointed for life with mandatory retirement at age 62
+            </judge-selection>
+            <subordinate-courts>magistrates' courts</subordinate-courts>
+        </judicial-branch>
+        <political-parties>
+            <party leader="Mark BRANTLEY" name="Concerned Citizens Movement" short="CCM"/>
+            <party leader="Joseph PARRY" name="Nevis Reformation Party" short="NRP"/>
+            <party leader="Shawn RICHARDS" name="People's Action Movement" short="PAM"/>
+            <party leader="Dr. Timothy HARRIS" name="People's Labour Party" short="PLR"/>
+            <party leader="Dr. Denzil DOUGLAS" name="Saint Kitts and Nevis Labor Party" short="SKNLP"/>
+        </political-parties>
+        <international-organization-participation>
+            ACP, AOSIS, C, Caricom, CDB, CELAC, FAO, G-77, IBRD, ICAO, ICCt, ICRM, IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO,
+            Interpol, IOC, ITU, MIGA, OAS, OECS, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, UPU, WHO, WIPO,
+            WTO
+        </international-organization-participation>
+        <diplomatic-representation>
+            <in-us chief-of-commision="Ambassador Dr. Thelma Patricia PHILLIP-BROWNE"
+                   chancery="3216 New Mexico Avenue NW, Washington, DC 20016" telephone="[1] (202) 686-2636"
+                   fax="[1] (202) 686-5740" consulate-general="Los Angeles, New York"/>
+            <from-us
+                    note="the US does not have an embassy in Saint Kitts and Nevis; the US Ambassador to Barbados is accredited to Saint Kitts and Nevis"/>
+        </diplomatic-representation>
+        <flag description="divided diagonally from the lower hoist side by a broad black band bearing two white, five-pointed stars; the black band is edged in yellow; the upper triangle is green, the lower triangle is red; green signifies the island's fertility, red symbolizes the struggles of the people from slavery, yellow denotes year-round sunshine, and black represents the African heritage of the people; the white stars stand for the islands of Saint Kitts and Nevis, but can also express hope and liberty, or independence and optimism"/>
+        <national-symbols symbol="brown pelican, Royal Poinciana (Flamboyant) tree"
+                          national-colors="green, yellow, red, black, white"/>
+        <national-anthem name='Oh Land of Beauty!' lyrics="Kenrick Anderson GEORGES" music="Kenrick Anderson GEORGES"
+                         note="adopted 1983"
+                         source="https://www.cia.gov/library/publications/the-world-factbook/anthems/SC.mp3"/>
+    </government>
+    <economy>
+        <overview>
+            The economy of Saint Kitts and Nevis depends on tourism; since the 1970s, tourism has replaced sugar as the
+            economy’s traditional mainstay. Roughly 200,000 tourists visited the islands in 2009, but reduced tourism
+            arrivals and foreign investment led to an economic contraction in the 2009-2013 period, and the economy
+            returned to growth only in 2014. Like other tourist destinations in the Caribbean, Saint Kitts and Nevis is
+            vulnerable to damage from natural disasters and shifts in tourism demand.
+            Following the 2005 harvest, the government closed the sugar industry after several decades of losses. To
+            compensate for lost jobs, the government has embarked on a program to diversify the agricultural sector and
+            to stimulate other sectors of the economy, such as export-oriented manufacturing and offshore banking. The
+            government has made notable progress in reducing its public debt, from 154% of GDP in 2011 to 83% in 2013,
+            although it still faces one of the highest levels in the world, largely attributable to public enterprise
+            losses. Saint Kitts and Nevis is among other countries in the Caribbean that supplement their economic
+            activity through economic citizenship programs, whereby foreigners can obtain citizenship from Saint Kitts
+            and Nevis by investing there.
+        </overview>
+        <gdps note="data are in 2016 dollars" exchange-rate="$900 billion">
+            <gdp to="2016" unit="$" value="billion">1.463</gdp>
+            <gdp to="2015" unit="$" value="billion">1.4</gdp>
+            <gdp to="2014" unit="$" value="billion">1.321</gdp>
+            <real-growth-rate unit="%">
+                <growth-rate to="2016">3.1</growth-rate>
+                <growth-rate to="2015">4.9</growth-rate>
+                <growth-rate to="2014">5.1</growth-rate>
+            </real-growth-rate>
+            <per-capita unit="$" note="data are in 2016 dollars">
+                <capita to="2016">26100</capita>
+                <capita to="2015">25300</capita>
+                <capita to="2014">24600</capita>
+            </per-capita>
+            <gross-national unit="% of GDP">
+                <gross to="2016">18.6</gross>
+                <gross to="2015">16.5</gross>
+                <gross to="2014">20.8</gross>
+            </gross-national>
+            <composition-end-use unit="%" household="59.5" government="20.3" investment-capital="29.6"
+                                 investment-inventories="0" exports="31.9" imports="-41.2"/>
+            <composition-end-sector unit="%" agriculture="1.1" industry="29" services="69.9"/>
+        </gdps>
+        <agriculture products="sugarcane, rice, yams, vegetables, bananas; fish"/>
+        <industries value="tourism, cotton, salt, copra, clothing, footwear, beverages"/>
+        <labor-force>18,170</labor-force>
+        <unemploy unit="%">
+            <u-rate to="1997">4.5</u-rate>
+        </unemploy>
+        <taxes value="41% of GDP"/>
+        <budget surplus-deficit="4.1% of GDP" revenues="$370.4 million" expenditures="$333.3 million"/>
+        <public-debt unit="% of GDP">
+            <debt to="2016">65.8</debt>
+            <debt to="2015">70.6</debt>
+        </public-debt>
+        <inflation-rate unit="%">
+            <i-rate to="2016">-0.4</i-rate>
+            <i-rate to="2015">-2.3</i-rate>
+        </inflation-rate>
+        <bank-lending-rate note="these figures represent the average annualized rate on working capital loans" unit="%">
+            <b-rate to="2016">9.24</b-rate>
+            <b-rate to="2015">9.3</b-rate>
+        </bank-lending-rate>
+        <stock-of-broad-money unit="$" value="billion">
+            <money to="2016">1.077</money>
+            <money to="2015">1.121</money>
+        </stock-of-broad-money>
+        <stock-of-domestic-credit unit="$" value="million">
+            <money to="2016">704.8</money>
+            <money to="2015">728.1</money>
+        </stock-of-domestic-credit>
+        <current-account unit="$" value="million">
+            <money to="2016">-102</money>
+            <money to="2015">-86.1</money>
+        </current-account>
+        <exports commodities="machinery, food, electronics, beverages, tobacco" unit="$" value="million">
+            <money to="2016">53.9</money>
+            <money to="2015">55.3</money>
+            <partners>
+                <partner percentage="49.6">US</partner>
+                <partner percentage="15.2">Poland</partner>
+                <partner percentage="11.6">Turkey</partner>
+            </partners>
+        </exports>
+        <imports commodities="machinery, manufactures, food, fuels" unit="$" value="million">
+            <money to="2016">244.4</money>
+            <money to="2015">247</money>
+            <partners>
+                <partner percentage="56.8">US</partner>
+                <partner percentage="6.8">Trinidad and Tobago</partner>
+                <partner percentage="6.2">Cyprus</partner>
+                <partner percentage="4">Japan</partner>
+            </partners>
+        </imports>
+        <debt-external unit="$" value="million">
+            <money to="2016">187.9</money>
+            <money to="2015">168</money>
+        </debt-external>
+        <exchange-rates description="East Caribbean dollars (XCD) per US dollar">
+            <money to="2016">2.7</money>
+            <money to="2015">2.7</money>
+            <money to="2014">2.7</money>
+            <money to="2013">2.7</money>
+            <money to="2012">2.7</money>
+        </exchange-rates>
+    </economy>
+    <energy>
+        <electricity>
+            <e-access population-without="5232" total="91%" urban-areas="100%" rural-areas="80%"/>
+            <e-production value="200 million kWh"/>
+            <e-consumption value="200 million kWh"/>
+            <e-exports value="0 kWh"/>
+            <e-imports value="0 kWh"/>
+            <e-generating-capacity value="64,200 kW"/>
+            <e-fossil-fuels percentage="95.2" note="of total installed capacity"/>
+            <e-sources percentage="4.8" note="of total installed capacity"/>
+        </electricity>
+        <crude-oil>
+            <e-production value="0 bbl/day"/>
+            <e-exports value="0 bbl/day"/>
+            <e-imports value="0 bbl/day"/>
+            <e-proved-reserves value="0 bbl"/>
+        </crude-oil>
+        <petroleum-products>
+            <e-production value="0 bbl/day"/>
+            <e-consumption value="1900 bbl/day"/>
+            <e-exports value="0 bbl/day"/>
+            <e-imports value="1907 bbl/day"/>
+        </petroleum-products>
+        <natural-gas>
+            <e-production value="0 cu m"/>
+            <e-consumption value="0 cu m"/>
+            <e-proved-reserves value="0 cu m"/>
+        </natural-gas>
+        <carbon-dioxide value="300,000 Mt"/>
+    </energy>
+    <communications>
+        <telephones>
+            <fixed total="17.433"/>
+            <mobile total="76.583"/>
+        </telephones>
+        <broadcast-media>
+            the government operates a national TV network that broadcasts on 2 channels; cable subscription services
+            provide access to local and international channels; the government operates a national radio network; a mix
+            of government-owned and privately owned broadcasters operate roughly 15 radio stations
+        </broadcast-media>
+        <internet country-code=".kn">
+            <users total="39 000" percentage="75.7"/>
+        </internet>
+    </communications>
+    <transportation>
+        <civil-aircraft country-coude-prefix="V4"/>
+        <airports value="2">
+            <paved-runways>
+                <runway description="1,524 to 2,437 m" value="1"/>
+                <runway description="914 to 1,523 m" value="1"/>
+            </paved-runways>
+        </airports>
+        <railways total="50" unit="km"/>
+        <roadways unit="km" paved="163" unpaved="220"/>
+    </transportation>
+    <military-security>
+        <branches>
+            Ministry of Foreign Affairs, National Security, Labour, Immigration, and Social Security: Royal Saint Kitts
+            and Nevis Defense Force (includes Coast Guard), Royal Saint Kitts and Nevis Police Force
+        </branches>
+    </military-security>
+    <transnational-issues>
+        <disputes>
+            joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a
+            criterion under UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ/continental
+            shelf over a large portion of the eastern Caribbean Sea
+        </disputes>
+    </transnational-issues>
+</country>

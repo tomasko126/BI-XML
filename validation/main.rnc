@@ -1,0 +1,533 @@
+country =
+    element country {
+        attlist.country,
+        (images
+         | background
+         | geography
+         | people-society
+         | government
+         | economy
+         | energy
+         | communications
+         | transportation
+         | military-security
+         | transnational-issues)*
+    }
+attlist.country &= attribute iso-code { text }
+images = element images { attlist.images, image* }
+attlist.images &= empty
+image = element image { attlist.image, text }
+attlist.image &=
+    attribute caption { text }?,
+    attribute source { text }
+background = element background { attlist.background, text }
+attlist.background &= empty
+geography =
+    element geography {
+        attlist.geography,
+        (location
+         | map-references
+         | area
+         | area-comparative
+         | land-boundaries
+         | coastline
+         | maritime-claims
+         | climate
+         | terrain
+         | elevation
+         | natural-resources
+         | land-use
+         | irrigated-land
+         | natural-hazards
+         | geography-note)*
+    }
+attlist.geography &=
+    attribute coordinate-n { text }?,
+    attribute coordinate-w { text }?,
+    attribute coordinate-e { text }?,
+    attribute coordinate-s { text }?
+location = element location { attlist.location, text }
+attlist.location &= attribute value { text }
+map-references = element map-references { attlist.map-references, text }
+attlist.map-references &= attribute value { text }
+area = element area { attlist.area, text }
+attlist.area &=
+    attribute land { text },
+    attribute water { text },
+    attribute unit { text }
+area-comparative = element area-comparative { attlist.area-comparative, text }
+attlist.area-comparative &= attribute value { text }
+land-boundaries = element land-boundaries { attlist.land-boundaries, text }
+attlist.land-boundaries &=
+    attribute value { text },
+    attribute unit { text }
+coastline = element coastline { attlist.coastline, text }
+attlist.coastline &=
+    attribute value { text },
+    attribute unit { text }
+maritime-claims = element maritime-claims { attlist.maritime-claims, text }
+attlist.maritime-claims &=
+    attribute territorial-sea { text }?,
+    attribute contiguous-zone { text }?,
+    attribute exclusive-economic-zone { text }?,
+    attribute value { text }?,
+    attribute unit { text }?,
+    attribute continental-shelf { text }?
+climate = element climate { attlist.climate, text }
+attlist.climate &= attribute value { text }
+terrain = element terrain { attlist.terrain, text }
+attlist.terrain &= attribute value { text }
+elevation = element elevation { attlist.elevation, text }
+attlist.elevation &=
+    attribute mean-elevation { text },
+    attribute lowest-point { text },
+    attribute highest-point { text },
+    attribute unit { text }
+natural-resources = element natural-resources { attlist.natural-resources, text }
+attlist.natural-resources &= attribute value { text }
+land-use = element land-use { attlist.land-use, text }
+attlist.land-use &=
+    attribute arable-land { text },
+    attribute permanent-crops { text },
+    attribute permanent-pasture { text },
+    attribute forest { text },
+    attribute other { text },
+    attribute unit { text }
+irrigated-land = element irrigated-land { attlist.irrigated-land, text }
+attlist.irrigated-land &= attribute value { text }
+natural-hazards = element natural-hazards { attlist.natural-hazards, text }
+attlist.natural-hazards &= attribute value { text }
+geography-note = element geography-note { attlist.geography-note, text }
+attlist.geography-note &= attribute value { text }
+people-society =
+    element people-society {
+        attlist.people-society,
+        (people | nationality | ethnic-groups | languages | religions | age-structure | median-age | sex-ratio)*
+    }
+attlist.people-society &= empty
+people = element people { attlist.people, text }
+attlist.people &= empty
+nationality = element nationality { attlist.nationality, text }
+attlist.nationality &=
+    attribute noun { text },
+    attribute adjective { text }
+ethnic-groups = element ethnic-groups { attlist.ethnic-groups, ethnic-group* }
+attlist.ethnic-groups &= empty
+ethnic-group = element ethnic-group { attlist.ethnic-group, text }
+attlist.ethnic-group &= attribute percentage { text }?
+languages = element languages { attlist.languages, language* }
+attlist.languages &= empty
+language = element language { attlist.language, text }
+attlist.language &= attribute percentage { text }?
+religions = element religions { attlist.religions, religion* }
+attlist.religions &= empty
+religion = element religion { attlist.religion, text }
+attlist.religion &= attribute percentage { text }?
+age-structure = element age-structure { attlist.age-structure, structure* }
+attlist.age-structure &=
+    attribute image { text },
+    attribute image-title { text }
+structure = element structure { attlist.structure, text }
+attlist.structure &=
+    attribute female { text },
+    attribute male { text },
+    attribute percentage { text },
+    attribute structure { text }
+median-age = element median-age { attlist.median-age, text }
+attlist.median-age &=
+    attribute male { text },
+    attribute female { text },
+    attribute unit { text }
+sex-ratio = element sex-ratio { attlist.sex-ratio, ratio* }
+attlist.sex-ratio &=
+    attribute total-population { text },
+    attribute unit { text }
+ratio = element ratio { attlist.ratio, text }
+attlist.ratio &= attribute value { text }
+government =
+    element government {
+        attlist.government,
+        (country-name
+         | capital
+         | administrative-divisions
+         | independence
+         | national-holiday
+         | constitution
+         | legal-system
+         | international-law
+         | citizenship
+         | suffrage
+         | executive-branch
+         | legislative-branch
+         | judicial-branch
+         | political-parties
+         | international-organization-participation
+         | diplomatic-representation
+         | flag
+         | national-symbols
+         | national-anthem)*
+    }
+attlist.government &= attribute type { text }
+country-name = element country-name { attlist.country-name, text }
+attlist.country-name &=
+    attribute long-form { text },
+    attribute short-form { text },
+    attribute local-long-form { text }?,
+    attribute local-short-form { text }?,
+    attribute ethymology { text },
+    attribute former { text }?
+capital = element capital { attlist.capital, text }
+attlist.capital &=
+    attribute coordinate-n { text }?,
+    attribute coordinate-w { text }?,
+    attribute coordinate-e { text }?,
+    attribute coordinate-s { text }?,
+    attribute time { text },
+    attribute daylight-saving-time { text }?
+administrative-divisions = element administrative-divisions { attlist.administrative-divisions, text }
+attlist.administrative-divisions &= empty
+independence = element independence { attlist.independence, text }
+attlist.independence &=
+    attribute date { text },
+    attribute note { text }?
+national-holiday = element national-holiday { attlist.national-holiday, holiday* }
+attlist.national-holiday &= empty
+holiday = element holiday { attlist.holiday, text }
+attlist.holiday &=
+    attribute date { text },
+    attribute name { text }
+constitution = element constitution { attlist.constitution, text }
+attlist.constitution &=
+    attribute history { text }?,
+    attribute amendments { text }?
+legal-system = element legal-system { attlist.legal-system, text }
+attlist.legal-system &= empty
+international-law = element international-law { attlist.international-law, text }
+attlist.international-law &= empty
+citizenship = element citizenship { attlist.citizenship, text }
+attlist.citizenship &=
+    attribute by-birth { text },
+    attribute by-descent-only { text },
+    attribute dual-citizenship-recognized { text },
+    attribute residency-requirement-for-naturalization { text }
+suffrage = element suffrage { attlist.suffrage, text }
+attlist.suffrage &= empty
+executive-branch =
+    element executive-branch {
+        attlist.executive-branch, (chief-of-state | head-of-government | cabinet | elections-appointments)*
+    }
+attlist.executive-branch &= empty
+chief-of-state = element chief-of-state { attlist.chief-of-state, text }
+attlist.chief-of-state &= attribute value { text }
+head-of-government = element head-of-government { attlist.head-of-government, text }
+attlist.head-of-government &= attribute value { text }
+cabinet = element cabinet { attlist.cabinet, text }
+attlist.cabinet &= attribute value { text }
+elections-appointments = element elections-appointments { attlist.elections-appointments, text }
+attlist.elections-appointments &= attribute value { text }
+legislative-branch =
+    element legislative-branch { attlist.legislative-branch, (description | elections | election-result)* }
+attlist.legislative-branch &= empty
+description = element description { attlist.description, text }
+attlist.description &= empty
+elections = element elections { attlist.elections, text }
+attlist.elections &= empty
+election-result = element election-result { attlist.election-result, text }
+attlist.election-result &= empty
+judicial-branch =
+    element judicial-branch { attlist.judicial-branch, (highest-courts | judge-selection | subordinate-courts)* }
+attlist.judicial-branch &= attribute note { text }?
+highest-courts = element highest-courts { attlist.highest-courts, text }
+attlist.highest-courts &= empty
+judge-selection = element judge-selection { attlist.judge-selection, text }
+attlist.judge-selection &= empty
+subordinate-courts = element subordinate-courts { attlist.subordinate-courts, text }
+attlist.subordinate-courts &= empty
+political-parties = element political-parties { attlist.political-parties, party* }
+attlist.political-parties &= empty
+party = element party { attlist.party, text }
+attlist.party &=
+    attribute leader { text }?,
+    attribute name { text },
+    attribute short { text }?
+international-organization-participation =
+    element international-organization-participation { attlist.international-organization-participation, text }
+attlist.international-organization-participation &= empty
+diplomatic-representation = element diplomatic-representation { attlist.diplomatic-representation, (in-us | from-us)* }
+attlist.diplomatic-representation &= empty
+in-us = element in-us { attlist.in-us, text }
+attlist.in-us &=
+    attribute chief-of-commision { text },
+    attribute chancery { text },
+    attribute telephone { text },
+    attribute fax { text },
+    attribute consulate-general { text }?,
+    attribute consulate { text }?
+from-us = element from-us { attlist.from-us, text }
+attlist.from-us &=
+    attribute chief-of-commision { text }?,
+    attribute embassy { text }?,
+    attribute mailing-address { text }?,
+    attribute telephone { text }?,
+    attribute fax { text }?,
+    attribute note { text }?
+flag = element flag { attlist.flag, text }
+attlist.flag &=
+    attribute description { text },
+    attribute note { text }?
+national-symbols = element national-symbols { attlist.national-symbols, text }
+attlist.national-symbols &=
+    attribute symbol { text },
+    attribute national-colors { text }
+national-anthem = element national-anthem { attlist.national-anthem, text }
+attlist.national-anthem &=
+    attribute name { text },
+    attribute music { text }?,
+    attribute lyrics { text }?,
+    attribute note { text },
+    attribute source { text }
+economy =
+    element economy {
+        attlist.economy,
+        (overview
+         | gdps
+         | agriculture
+         | household
+         | industries
+         | labor-force
+         | unemploy
+         | taxes
+         | budget
+         | public-debt
+         | inflation-rate
+         | bank-lending-rate
+         | stock-of-broad-money
+         | stock-of-domestic-credit
+         | current-account
+         | exports
+         | imports
+         | debt-external
+         | exchange-rates)*
+    }
+attlist.economy &= empty
+overview = element overview { attlist.overview, text }
+attlist.overview &= empty
+gdps =
+    element gdps {
+        attlist.gdps,
+        (gdp | real-growth-rate | per-capita | gross-national | composition-end-use | composition-end-sector)*
+    }
+attlist.gdps &=
+    attribute note { text },
+    attribute exchange-rate { text }
+gdp = element gdp { attlist.gdp, text }
+attlist.gdp &=
+    attribute to { text },
+    attribute unit { text },
+    attribute value { text }
+real-growth-rate = element real-growth-rate { attlist.real-growth-rate, growth-rate* }
+attlist.real-growth-rate &= attribute unit { text }
+growth-rate = element growth-rate { attlist.growth-rate, text }
+attlist.growth-rate &= attribute to { text }
+per-capita = element per-capita { attlist.per-capita, capita* }
+attlist.per-capita &=
+    attribute unit { text },
+    attribute note { text }
+capita = element capita { attlist.capita, text }
+attlist.capita &= attribute to { text }
+gross-national = element gross-national { attlist.gross-national, gross* }
+attlist.gross-national &= attribute unit { text }
+gross = element gross { attlist.gross, text }
+attlist.gross &= attribute to { text }
+composition-end-use = element composition-end-use { attlist.composition-end-use, text }
+attlist.composition-end-use &=
+    attribute unit { text },
+    attribute household { text },
+    attribute government { text },
+    attribute investment-capital { text },
+    attribute investment-inventories { text },
+    attribute exports { text },
+    attribute imports { text }
+composition-end-sector = element composition-end-sector { attlist.composition-end-sector, text }
+attlist.composition-end-sector &=
+    attribute unit { text },
+    attribute agriculture { text },
+    attribute industry { text },
+    attribute services { text }
+agriculture = element agriculture { attlist.agriculture, text }
+attlist.agriculture &=
+    attribute products { text },
+    attribute note { text }?
+industries = element industries { attlist.industries, text }
+attlist.industries &= attribute value { text }
+labor-force = element labor-force { attlist.labor-force, text }
+attlist.labor-force &=
+    attribute agriculture { text }?,
+    attribute industry { text }?,
+    attribute services { text }?,
+    attribute unit { text }?
+unemploy = element unemploy { attlist.unemploy, u-rate* }
+attlist.unemploy &=
+    attribute unit { text },
+    attribute note { text }?
+u-rate = element u-rate { attlist.u-rate, text }
+attlist.u-rate &= attribute to { text }
+household = element household { attlist.household, text }
+attlist.household &=
+    attribute lowest { text },
+    attribute highest { text },
+    attribute unit { text }
+taxes = element taxes { attlist.taxes, text }
+attlist.taxes &= attribute value { text }
+budget = element budget { attlist.budget, text }
+attlist.budget &=
+    attribute surplus-deficit { text },
+    attribute revenues { text },
+    attribute expenditures { text }
+public-debt = element public-debt { attlist.public-debt, debt* }
+attlist.public-debt &= attribute unit { text }
+debt = element debt { attlist.debt, text }
+attlist.debt &= attribute to { text }
+inflation-rate = element inflation-rate { attlist.inflation-rate, i-rate* }
+attlist.inflation-rate &= attribute unit { text }
+i-rate = element i-rate { attlist.i-rate, text }
+attlist.i-rate &= attribute to { text }
+bank-lending-rate = element bank-lending-rate { attlist.bank-lending-rate, b-rate* }
+attlist.bank-lending-rate &=
+    attribute unit { text },
+    attribute note { text }?
+b-rate = element b-rate { attlist.b-rate, text }
+attlist.b-rate &= attribute to { text }
+stock-of-broad-money = element stock-of-broad-money { attlist.stock-of-broad-money, money* }
+attlist.stock-of-broad-money &=
+    attribute unit { text },
+    attribute value { text }
+money = element money { attlist.money, text }
+attlist.money &= attribute to { text }
+stock-of-domestic-credit = element stock-of-domestic-credit { attlist.stock-of-domestic-credit, money* }
+attlist.stock-of-domestic-credit &=
+    attribute unit { text },
+    attribute value { text }
+current-account = element current-account { attlist.current-account, money* }
+attlist.current-account &=
+    attribute unit { text },
+    attribute value { text }
+exports = element exports { attlist.exports, (money | partners)* }
+attlist.exports &=
+    attribute commodities { text },
+    attribute unit { text },
+    attribute value { text }
+partners = element partners { attlist.partners, partner* }
+attlist.partners &= empty
+partner = element partner { attlist.partner, text }
+attlist.partner &= attribute percentage { text }
+imports = element imports { attlist.imports, (money | partners)* }
+attlist.imports &=
+    attribute commodities { text },
+    attribute unit { text },
+    attribute value { text }
+debt-external = element debt-external { attlist.debt-external, money* }
+attlist.debt-external &=
+    attribute unit { text },
+    attribute value { text }
+exchange-rates = element exchange-rates { attlist.exchange-rates, money* }
+attlist.exchange-rates &= attribute description { text }
+energy =
+    element energy { attlist.energy, (electricity | crude-oil | petroleum-products | natural-gas | carbon-dioxide)* }
+attlist.energy &= empty
+electricity =
+    element electricity {
+        attlist.electricity,
+        (e-access
+         | e-production
+         | e-consumption
+         | e-exports
+         | e-imports
+         | e-generating-capacity
+         | e-fossil-fuels
+         | e-sources)*
+    }
+attlist.electricity &= empty
+e-access = element e-access { attlist.e-access, text }
+attlist.e-access &=
+    attribute urban-areas { text }?,
+    attribute rural-areas { text }?,
+    attribute population-without { text }?,
+    attribute total { text }
+e-production = element e-production { attlist.e-production, text }
+attlist.e-production &= attribute value { text }
+e-consumption = element e-consumption { attlist.e-consumption, text }
+attlist.e-consumption &= attribute value { text }
+e-exports = element e-exports { attlist.e-exports, text }
+attlist.e-exports &= attribute value { text }
+e-imports = element e-imports { attlist.e-imports, text }
+attlist.e-imports &= attribute value { text }
+e-generating-capacity = element e-generating-capacity { attlist.e-generating-capacity, text }
+attlist.e-generating-capacity &= attribute value { text }
+e-fossil-fuels = element e-fossil-fuels { attlist.e-fossil-fuels, text }
+attlist.e-fossil-fuels &=
+    attribute percentage { text },
+    attribute note { text }
+e-sources = element e-sources { attlist.e-sources, text }
+attlist.e-sources &=
+    attribute percentage { text },
+    attribute note { text }
+crude-oil = element crude-oil { attlist.crude-oil, (e-production | e-exports | e-imports | e-proved-reserves)* }
+attlist.crude-oil &= empty
+e-proved-reserves = element e-proved-reserves { attlist.e-proved-reserves, text }
+attlist.e-proved-reserves &= attribute value { text }
+petroleum-products =
+    element petroleum-products { attlist.petroleum-products, (e-production | e-consumption | e-exports | e-imports)* }
+attlist.petroleum-products &= empty
+natural-gas = element natural-gas { attlist.natural-gas, (e-production | e-consumption | e-proved-reserves)* }
+attlist.natural-gas &= empty
+carbon-dioxide = element carbon-dioxide { attlist.carbon-dioxide, text }
+attlist.carbon-dioxide &= attribute value { text }
+communications = element communications { attlist.communications, (telephones | broadcast-media | internet)* }
+attlist.communications &= empty
+telephones = element telephones { attlist.telephones, (fixed | mobile)* }
+attlist.telephones &= empty
+fixed = element fixed { attlist.fixed, text }
+attlist.fixed &= attribute total { text }
+mobile = element mobile { attlist.mobile, text }
+attlist.mobile &= attribute total { text }
+broadcast-media = element broadcast-media { attlist.broadcast-media, text }
+attlist.broadcast-media &= empty
+internet = element internet { attlist.internet, users* }
+attlist.internet &= attribute country-code { text }
+users = element users { attlist.users, text }
+attlist.users &=
+    attribute total { text },
+    attribute percentage { text }
+transportation = element transportation { attlist.transportation, (civil-aircraft | airports | railways | roadways)* }
+attlist.transportation &= empty
+civil-aircraft = element civil-aircraft { attlist.civil-aircraft, text }
+attlist.civil-aircraft &= attribute country-coude-prefix { text }
+airports = element airports { attlist.airports, (paved-runways | unpaved-runways)* }
+attlist.airports &= attribute value { text }?
+paved-runways = element paved-runways { attlist.paved-runways, runway* }
+attlist.paved-runways &= empty
+runway = element runway { attlist.runway, text }
+attlist.runway &=
+    attribute description { text },
+    attribute value { text }
+unpaved-runways = element unpaved-runways { attlist.unpaved-runways, runway* }
+attlist.unpaved-runways &= empty
+railways = element railways { attlist.railways, text }
+attlist.railways &=
+    attribute total { text },
+    attribute unit { text }
+roadways = element roadways { attlist.roadways, text }
+attlist.roadways &=
+    attribute unit { text },
+    attribute paved { text },
+    attribute unpaved { text }
+military-security = element military-security { attlist.military-security, branches* }
+attlist.military-security &= empty
+branches = element branches { attlist.branches, text }
+attlist.branches &= empty
+transnational-issues = element transnational-issues { attlist.transnational-issues, disputes* }
+attlist.transnational-issues &= empty
+disputes = element disputes { attlist.disputes, text }
+attlist.disputes &= empty
+start = country

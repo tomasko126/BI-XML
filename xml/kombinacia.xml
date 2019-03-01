@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE country [
+        <!ENTITY dominica SYSTEM "dominica.xml">
+        <!ENTITY kosovo SYSTEM "kosovo.xml">
+        <!ENTITY seychelles SYSTEM "seychelles.xml">
+        <!ENTITY saint-kitts-and-nevis SYSTEM "saint-kitts-and-nevis.xml">
+        ]>
+
+<countries>
+    &dominica;
+    &kosovo;
+    &seychelles;
+    &saint-kitts-and-nevis;
+</countries>

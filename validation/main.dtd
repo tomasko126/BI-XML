@@ -1,0 +1,436 @@
+<!ELEMENT country (images|background|geography|people-society|government|economy|energy|communications|transportation|military-security|transnational-issues)*>
+        <!ATTLIST country
+                iso-code CDATA #REQUIRED>
+        <!ELEMENT images (image)*>
+        <!ELEMENT image (#PCDATA)>
+        <!ATTLIST image
+                caption CDATA #IMPLIED
+                source CDATA #REQUIRED>
+        <!ELEMENT background (#PCDATA)>
+        <!ELEMENT geography (location|map-references|area|area-comparative|land-boundaries|coastline|maritime-claims|climate|terrain|elevation|natural-resources|land-use|irrigated-land|natural-hazards|geography-note)*>
+        <!ATTLIST geography
+                coordinate-n CDATA #IMPLIED
+                coordinate-w CDATA #IMPLIED
+                coordinate-e CDATA #IMPLIED
+                coordinate-s CDATA #IMPLIED>
+        <!ELEMENT location (#PCDATA)>
+        <!ATTLIST location
+                value CDATA #REQUIRED>
+        <!ELEMENT map-references (#PCDATA)>
+        <!ATTLIST map-references
+                value CDATA #REQUIRED>
+        <!ELEMENT area (#PCDATA)>
+        <!ATTLIST area
+                land CDATA #REQUIRED
+                water CDATA #REQUIRED
+                unit CDATA #REQUIRED>
+        <!ELEMENT area-comparative (#PCDATA)>
+        <!ATTLIST area-comparative
+                value CDATA #REQUIRED>
+        <!ELEMENT land-boundaries (#PCDATA)>
+        <!ATTLIST land-boundaries
+                value CDATA #REQUIRED
+                unit CDATA #REQUIRED>
+        <!ELEMENT coastline (#PCDATA)>
+        <!ATTLIST coastline
+                value CDATA #REQUIRED
+                unit CDATA #REQUIRED>
+        <!ELEMENT maritime-claims (#PCDATA)>
+        <!ATTLIST maritime-claims
+                territorial-sea CDATA #IMPLIED
+                contiguous-zone CDATA #IMPLIED
+                exclusive-economic-zone CDATA #IMPLIED
+                value CDATA #IMPLIED
+                unit CDATA #IMPLIED
+                continental-shelf CDATA #IMPLIED>
+        <!ELEMENT climate (#PCDATA)>
+        <!ATTLIST climate
+                value CDATA #REQUIRED>
+        <!ELEMENT terrain (#PCDATA)>
+        <!ATTLIST terrain
+                value CDATA #REQUIRED>
+        <!ELEMENT elevation (#PCDATA)>
+        <!ATTLIST elevation
+                mean-elevation CDATA #REQUIRED
+                lowest-point CDATA #REQUIRED
+                highest-point CDATA #REQUIRED
+                unit CDATA #REQUIRED>
+        <!ELEMENT natural-resources (#PCDATA)>
+        <!ATTLIST natural-resources
+                value CDATA #REQUIRED>
+        <!ELEMENT land-use (#PCDATA)>
+        <!ATTLIST land-use
+                arable-land CDATA #REQUIRED
+                permanent-crops CDATA #REQUIRED
+                permanent-pasture CDATA #REQUIRED
+                forest CDATA #REQUIRED
+                other CDATA #REQUIRED
+                unit CDATA #REQUIRED>
+        <!ELEMENT irrigated-land (#PCDATA)>
+        <!ATTLIST irrigated-land
+                value CDATA #REQUIRED>
+        <!ELEMENT natural-hazards (#PCDATA)>
+        <!ATTLIST natural-hazards
+                value CDATA #REQUIRED>
+        <!ELEMENT geography-note (#PCDATA)>
+        <!ATTLIST geography-note
+                value CDATA #REQUIRED>
+        <!ELEMENT people-society (people|nationality|ethnic-groups|languages|religions|age-structure|median-age|sex-ratio)*>
+        <!ELEMENT people (#PCDATA)>
+        <!ELEMENT nationality (#PCDATA)>
+        <!ATTLIST nationality
+                noun CDATA #REQUIRED
+                adjective CDATA #REQUIRED>
+        <!ELEMENT ethnic-groups (ethnic-group)*>
+        <!ELEMENT ethnic-group (#PCDATA)>
+        <!ATTLIST ethnic-group
+                percentage CDATA #IMPLIED>
+        <!ELEMENT languages (language)*>
+        <!ELEMENT language (#PCDATA)>
+        <!ATTLIST language
+                percentage CDATA #IMPLIED>
+        <!ELEMENT religions (religion)*>
+        <!ELEMENT religion (#PCDATA)>
+        <!ATTLIST religion
+                percentage CDATA #IMPLIED>
+        <!ELEMENT age-structure (structure)*>
+        <!ATTLIST age-structure
+                image CDATA #REQUIRED
+                image-title CDATA #REQUIRED>
+        <!ELEMENT structure (#PCDATA)>
+        <!ATTLIST structure
+                female CDATA #REQUIRED
+                male CDATA #REQUIRED
+                percentage CDATA #REQUIRED
+                structure CDATA #REQUIRED>
+        <!ELEMENT median-age (#PCDATA)>
+        <!ATTLIST median-age
+                male CDATA #REQUIRED
+                female CDATA #REQUIRED
+                unit CDATA #REQUIRED>
+        <!ELEMENT sex-ratio (ratio)*>
+        <!ATTLIST sex-ratio
+                total-population CDATA #REQUIRED
+                unit CDATA #REQUIRED>
+        <!ELEMENT ratio (#PCDATA)>
+        <!ATTLIST ratio
+                value CDATA #REQUIRED>
+        <!ELEMENT government (country-name|capital|administrative-divisions|independence|national-holiday|constitution|legal-system|international-law|citizenship|suffrage|executive-branch|legislative-branch|judicial-branch|political-parties|international-organization-participation|diplomatic-representation|flag|national-symbols|national-anthem)*>
+        <!ATTLIST government
+                type CDATA #REQUIRED>
+        <!ELEMENT country-name (#PCDATA)>
+        <!ATTLIST country-name
+                long-form CDATA #REQUIRED
+                short-form CDATA #REQUIRED
+                local-long-form CDATA #IMPLIED
+                local-short-form CDATA #IMPLIED
+                ethymology CDATA #REQUIRED
+                former CDATA #IMPLIED>
+        <!ELEMENT capital (#PCDATA)>
+        <!ATTLIST capital
+                coordinate-n CDATA #IMPLIED
+                coordinate-w CDATA #IMPLIED
+                coordinate-e CDATA #IMPLIED
+                coordinate-s CDATA #IMPLIED
+                time CDATA #REQUIRED
+                daylight-saving-time CDATA #IMPLIED>
+        <!ELEMENT administrative-divisions (#PCDATA)>
+        <!ELEMENT independence (#PCDATA)>
+        <!ATTLIST independence
+                date CDATA #REQUIRED
+                note CDATA #IMPLIED>
+        <!ELEMENT national-holiday (holiday)*>
+        <!ELEMENT holiday (#PCDATA)>
+        <!ATTLIST holiday
+                date CDATA #REQUIRED
+                name CDATA #REQUIRED>
+        <!ELEMENT constitution (#PCDATA)>
+        <!ATTLIST constitution
+                history CDATA #IMPLIED
+                amendments CDATA #IMPLIED>
+        <!ELEMENT legal-system (#PCDATA)>
+        <!ELEMENT international-law (#PCDATA)>
+        <!ELEMENT citizenship (#PCDATA)>
+        <!ATTLIST citizenship
+                by-birth CDATA #REQUIRED
+                by-descent-only CDATA #REQUIRED
+                dual-citizenship-recognized CDATA #REQUIRED
+                residency-requirement-for-naturalization CDATA #REQUIRED>
+        <!ELEMENT suffrage (#PCDATA)>
+        <!ELEMENT executive-branch (chief-of-state|head-of-government|cabinet|elections-appointments)*>
+        <!ELEMENT chief-of-state (#PCDATA)>
+        <!ATTLIST chief-of-state
+                value CDATA #REQUIRED>
+        <!ELEMENT head-of-government (#PCDATA)>
+        <!ATTLIST head-of-government
+                value CDATA #REQUIRED>
+        <!ELEMENT cabinet (#PCDATA)>
+        <!ATTLIST cabinet
+                value CDATA #REQUIRED>
+        <!ELEMENT elections-appointments (#PCDATA)>
+        <!ATTLIST elections-appointments
+                value CDATA #REQUIRED>
+        <!ELEMENT legislative-branch (description|elections|election-result)*>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT elections (#PCDATA)>
+        <!ELEMENT election-result (#PCDATA)>
+        <!ELEMENT judicial-branch (highest-courts|judge-selection|subordinate-courts)*>
+        <!ATTLIST judicial-branch
+                note CDATA #IMPLIED>
+        <!ELEMENT highest-courts (#PCDATA)>
+        <!ELEMENT judge-selection (#PCDATA)>
+        <!ELEMENT subordinate-courts (#PCDATA)>
+        <!ELEMENT political-parties (party)*>
+        <!ELEMENT party (#PCDATA)>
+        <!ATTLIST party
+                leader CDATA #IMPLIED
+                name CDATA #REQUIRED
+                short CDATA #IMPLIED>
+        <!ELEMENT international-organization-participation (#PCDATA)>
+        <!ELEMENT diplomatic-representation (in-us|from-us)*>
+        <!ELEMENT in-us (#PCDATA)>
+        <!ATTLIST in-us
+                chief-of-commision CDATA #REQUIRED
+                chancery CDATA #REQUIRED
+                telephone CDATA #REQUIRED
+                fax CDATA #REQUIRED
+                consulate-general CDATA #IMPLIED
+                consulate CDATA #IMPLIED>
+        <!ELEMENT from-us (#PCDATA)>
+        <!ATTLIST from-us
+                chief-of-commision CDATA #IMPLIED
+                embassy CDATA #IMPLIED
+                mailing-address CDATA #IMPLIED
+                telephone CDATA #IMPLIED
+                fax CDATA #IMPLIED
+                note CDATA #IMPLIED>
+        <!ELEMENT flag (#PCDATA)>
+        <!ATTLIST flag
+                description CDATA #REQUIRED
+                note CDATA #IMPLIED>
+        <!ELEMENT national-symbols (#PCDATA)>
+        <!ATTLIST national-symbols
+                symbol CDATA #REQUIRED
+                national-colors CDATA #REQUIRED>
+        <!ELEMENT national-anthem (#PCDATA)>
+        <!ATTLIST national-anthem
+                name CDATA #REQUIRED
+                music CDATA #IMPLIED
+                lyrics CDATA #IMPLIED
+                note CDATA #REQUIRED
+                source CDATA #REQUIRED>
+        <!ELEMENT economy (overview|gdps|agriculture|household|industries|labor-force|unemploy|taxes|budget|public-debt|inflation-rate|bank-lending-rate|stock-of-broad-money|stock-of-domestic-credit|current-account|exports|imports|debt-external|exchange-rates)*>
+        <!ELEMENT overview (#PCDATA)>
+        <!ELEMENT gdps (gdp|real-growth-rate|per-capita|gross-national|composition-end-use|composition-end-sector)*>
+        <!ATTLIST gdps
+                note CDATA #REQUIRED
+                exchange-rate CDATA #REQUIRED>
+        <!ELEMENT gdp (#PCDATA)>
+        <!ATTLIST gdp
+                to CDATA #REQUIRED
+                unit CDATA #REQUIRED
+                value CDATA #REQUIRED>
+        <!ELEMENT real-growth-rate (growth-rate)*>
+        <!ATTLIST real-growth-rate
+                unit CDATA #REQUIRED>
+        <!ELEMENT growth-rate (#PCDATA)>
+        <!ATTLIST growth-rate
+                to CDATA #REQUIRED>
+        <!ELEMENT per-capita (capita)*>
+        <!ATTLIST per-capita
+                unit CDATA #REQUIRED
+                note CDATA #REQUIRED>
+        <!ELEMENT capita (#PCDATA)>
+        <!ATTLIST capita
+                to CDATA #REQUIRED>
+        <!ELEMENT gross-national (gross)*>
+        <!ATTLIST gross-national
+                unit CDATA #REQUIRED>
+        <!ELEMENT gross (#PCDATA)>
+        <!ATTLIST gross
+                to CDATA #REQUIRED>
+        <!ELEMENT composition-end-use (#PCDATA)>
+        <!ATTLIST composition-end-use
+                unit CDATA #REQUIRED
+                household CDATA #REQUIRED
+                government CDATA #REQUIRED
+                investment-capital CDATA #REQUIRED
+                investment-inventories CDATA #REQUIRED
+                exports CDATA #REQUIRED
+                imports CDATA #REQUIRED>
+        <!ELEMENT composition-end-sector (#PCDATA)>
+        <!ATTLIST composition-end-sector
+                unit CDATA #REQUIRED
+                agriculture CDATA #REQUIRED
+                industry CDATA #REQUIRED
+                services CDATA #REQUIRED>
+        <!ELEMENT agriculture (#PCDATA)>
+        <!ATTLIST agriculture
+                products CDATA #REQUIRED
+                note CDATA #IMPLIED>
+        <!ELEMENT industries (#PCDATA)>
+        <!ATTLIST industries
+                value CDATA #REQUIRED>
+        <!ELEMENT labor-force (#PCDATA)>
+        <!ATTLIST labor-force
+                agriculture CDATA #IMPLIED
+                industry CDATA #IMPLIED
+                services CDATA #IMPLIED
+                unit CDATA #IMPLIED>
+        <!ELEMENT unemploy (u-rate)*>
+        <!ATTLIST unemploy
+                unit CDATA #REQUIRED
+                note CDATA #IMPLIED>
+        <!ELEMENT u-rate (#PCDATA)>
+        <!ATTLIST u-rate
+                to CDATA #REQUIRED>
+        <!ELEMENT household (#PCDATA)>
+        <!ATTLIST household
+                lowest CDATA #REQUIRED
+                highest CDATA #REQUIRED
+                unit CDATA #REQUIRED>
+        <!ELEMENT taxes (#PCDATA)>
+        <!ATTLIST taxes
+                value CDATA #REQUIRED>
+        <!ELEMENT budget (#PCDATA)>
+        <!ATTLIST budget
+                surplus-deficit CDATA #REQUIRED
+                revenues CDATA #REQUIRED
+                expenditures CDATA #REQUIRED>
+        <!ELEMENT public-debt (debt)*>
+        <!ATTLIST public-debt
+                unit CDATA #REQUIRED>
+        <!ELEMENT debt (#PCDATA)>
+        <!ATTLIST debt
+                to CDATA #REQUIRED>
+        <!ELEMENT inflation-rate (i-rate)*>
+        <!ATTLIST inflation-rate
+                unit CDATA #REQUIRED>
+        <!ELEMENT i-rate (#PCDATA)>
+        <!ATTLIST i-rate
+                to CDATA #REQUIRED>
+        <!ELEMENT bank-lending-rate (b-rate)*>
+        <!ATTLIST bank-lending-rate
+                unit CDATA #REQUIRED
+                note CDATA #IMPLIED>
+        <!ELEMENT b-rate (#PCDATA)>
+        <!ATTLIST b-rate
+                to CDATA #REQUIRED>
+        <!ELEMENT stock-of-broad-money (money)*>
+        <!ATTLIST stock-of-broad-money
+                unit CDATA #REQUIRED
+                value CDATA #REQUIRED>
+        <!ELEMENT money (#PCDATA)>
+        <!ATTLIST money
+                to CDATA #REQUIRED>
+        <!ELEMENT stock-of-domestic-credit (money)*>
+        <!ATTLIST stock-of-domestic-credit
+                unit CDATA #REQUIRED
+                value CDATA #REQUIRED>
+        <!ELEMENT current-account (money)*>
+        <!ATTLIST current-account
+                unit CDATA #REQUIRED
+                value CDATA #REQUIRED>
+        <!ELEMENT exports (money|partners)*>
+        <!ATTLIST exports
+                commodities CDATA #REQUIRED
+                unit CDATA #REQUIRED
+                value CDATA #REQUIRED>
+        <!ELEMENT partners (partner)*>
+        <!ELEMENT partner (#PCDATA)>
+        <!ATTLIST partner
+                percentage CDATA #REQUIRED>
+        <!ELEMENT imports (money|partners)*>
+        <!ATTLIST imports
+                commodities CDATA #REQUIRED
+                unit CDATA #REQUIRED
+                value CDATA #REQUIRED>
+        <!ELEMENT debt-external (money)*>
+        <!ATTLIST debt-external
+                unit CDATA #REQUIRED
+                value CDATA #REQUIRED>
+        <!ELEMENT exchange-rates (money)*>
+        <!ATTLIST exchange-rates
+                description CDATA #REQUIRED>
+        <!ELEMENT energy (electricity|crude-oil|petroleum-products|natural-gas|carbon-dioxide)*>
+        <!ELEMENT electricity (e-access|e-production|e-consumption|e-exports|e-imports|e-generating-capacity|e-fossil-fuels|e-sources)*>
+        <!ELEMENT e-access (#PCDATA)>
+        <!ATTLIST e-access
+                urban-areas CDATA #IMPLIED
+                rural-areas CDATA #IMPLIED
+                population-without CDATA #IMPLIED
+                total CDATA #REQUIRED>
+        <!ELEMENT e-production (#PCDATA)>
+        <!ATTLIST e-production
+                value CDATA #REQUIRED>
+        <!ELEMENT e-consumption (#PCDATA)>
+        <!ATTLIST e-consumption
+                value CDATA #REQUIRED>
+        <!ELEMENT e-exports (#PCDATA)>
+        <!ATTLIST e-exports
+                value CDATA #REQUIRED>
+        <!ELEMENT e-imports (#PCDATA)>
+        <!ATTLIST e-imports
+                value CDATA #REQUIRED>
+        <!ELEMENT e-generating-capacity (#PCDATA)>
+        <!ATTLIST e-generating-capacity
+                value CDATA #REQUIRED>
+        <!ELEMENT e-fossil-fuels (#PCDATA)>
+        <!ATTLIST e-fossil-fuels
+                percentage CDATA #REQUIRED
+                note CDATA #REQUIRED>
+        <!ELEMENT e-sources (#PCDATA)>
+        <!ATTLIST e-sources
+                percentage CDATA #REQUIRED
+                note CDATA #REQUIRED>
+        <!ELEMENT crude-oil (e-production|e-exports|e-imports|e-proved-reserves)*>
+        <!ELEMENT e-proved-reserves (#PCDATA)>
+        <!ATTLIST e-proved-reserves
+                value CDATA #REQUIRED>
+        <!ELEMENT petroleum-products (e-production|e-consumption|e-exports|e-imports)*>
+        <!ELEMENT natural-gas (e-production|e-consumption|e-proved-reserves)*>
+        <!ELEMENT carbon-dioxide (#PCDATA)>
+        <!ATTLIST carbon-dioxide
+                value CDATA #REQUIRED>
+        <!ELEMENT communications (telephones|broadcast-media|internet)*>
+        <!ELEMENT telephones (fixed|mobile)*>
+        <!ELEMENT fixed (#PCDATA)>
+        <!ATTLIST fixed
+                total CDATA #REQUIRED>
+        <!ELEMENT mobile (#PCDATA)>
+        <!ATTLIST mobile
+                total CDATA #REQUIRED>
+        <!ELEMENT broadcast-media (#PCDATA)>
+        <!ELEMENT internet (users)*>
+        <!ATTLIST internet
+                country-code CDATA #REQUIRED>
+        <!ELEMENT users (#PCDATA)>
+        <!ATTLIST users
+                total CDATA #REQUIRED
+                percentage CDATA #REQUIRED>
+        <!ELEMENT transportation (civil-aircraft|airports|railways|roadways)*>
+        <!ELEMENT civil-aircraft (#PCDATA)>
+        <!ATTLIST civil-aircraft
+                country-coude-prefix CDATA #REQUIRED>
+        <!ELEMENT airports (paved-runways|unpaved-runways)*>
+        <!ATTLIST airports
+                value CDATA #IMPLIED>
+        <!ELEMENT paved-runways (runway)*>
+        <!ELEMENT runway (#PCDATA)>
+        <!ATTLIST runway
+                description CDATA #REQUIRED
+                value CDATA #REQUIRED>
+        <!ELEMENT unpaved-runways (runway)*>
+        <!ELEMENT railways (#PCDATA)>
+        <!ATTLIST railways
+                total CDATA #REQUIRED
+                unit CDATA #REQUIRED>
+        <!ELEMENT roadways (#PCDATA)>
+        <!ATTLIST roadways
+                unit CDATA #REQUIRED
+                paved CDATA #REQUIRED
+                unpaved CDATA #REQUIRED>
+        <!ELEMENT military-security (branches)*>
+        <!ELEMENT branches (#PCDATA)>
+        <!ELEMENT transnational-issues (disputes)*>
+        <!ELEMENT disputes (#PCDATA)>

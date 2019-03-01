@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+    <define name="country">
+        <element name="country">
+            <ref name="attlist.country"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="images"/>
+                    <ref name="background"/>
+                    <ref name="geography"/>
+                    <ref name="people-society"/>
+                    <ref name="government"/>
+                    <ref name="economy"/>
+                    <ref name="energy"/>
+                    <ref name="communications"/>
+                    <ref name="transportation"/>
+                    <ref name="military-security"/>
+                    <ref name="transnational-issues"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.country" combine="interleave">
+        <attribute name="iso-code"/>
+    </define>
+    <define name="images">
+        <element name="images">
+            <ref name="attlist.images"/>
+            <zeroOrMore>
+                <ref name="image"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.images" combine="interleave">
+        <empty/>
+    </define>
+    <define name="image">
+        <element name="image">
+            <ref name="attlist.image"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.image" combine="interleave">
+        <optional>
+            <attribute name="caption"/>
+        </optional>
+        <attribute name="source"/>
+    </define>
+    <define name="background">
+        <element name="background">
+            <ref name="attlist.background"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.background" combine="interleave">
+        <empty/>
+    </define>
+    <define name="geography">
+        <element name="geography">
+            <ref name="attlist.geography"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="location"/>
+                    <ref name="map-references"/>
+                    <ref name="area"/>
+                    <ref name="area-comparative"/>
+                    <ref name="land-boundaries"/>
+                    <ref name="coastline"/>
+                    <ref name="maritime-claims"/>
+                    <ref name="climate"/>
+                    <ref name="terrain"/>
+                    <ref name="elevation"/>
+                    <ref name="natural-resources"/>
+                    <ref name="land-use"/>
+                    <ref name="irrigated-land"/>
+                    <ref name="natural-hazards"/>
+                    <ref name="geography-note"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.geography" combine="interleave">
+        <optional>
+            <attribute name="coordinate-n"/>
+        </optional>
+        <optional>
+            <attribute name="coordinate-w"/>
+        </optional>
+        <optional>
+            <attribute name="coordinate-e"/>
+        </optional>
+        <optional>
+            <attribute name="coordinate-s"/>
+        </optional>
+    </define>
+    <define name="location">
+        <element name="location">
+            <ref name="attlist.location"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.location" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="map-references">
+        <element name="map-references">
+            <ref name="attlist.map-references"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.map-references" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="area">
+        <element name="area">
+            <ref name="attlist.area"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.area" combine="interleave">
+        <attribute name="land"/>
+        <attribute name="water"/>
+        <attribute name="unit"/>
+    </define>
+    <define name="area-comparative">
+        <element name="area-comparative">
+            <ref name="attlist.area-comparative"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.area-comparative" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="land-boundaries">
+        <element name="land-boundaries">
+            <ref name="attlist.land-boundaries"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.land-boundaries" combine="interleave">
+        <attribute name="value"/>
+        <attribute name="unit"/>
+    </define>
+    <define name="coastline">
+        <element name="coastline">
+            <ref name="attlist.coastline"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.coastline" combine="interleave">
+        <attribute name="value"/>
+        <attribute name="unit"/>
+    </define>
+    <define name="maritime-claims">
+        <element name="maritime-claims">
+            <ref name="attlist.maritime-claims"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.maritime-claims" combine="interleave">
+        <optional>
+            <attribute name="territorial-sea"/>
+        </optional>
+        <optional>
+            <attribute name="contiguous-zone"/>
+        </optional>
+        <optional>
+            <attribute name="exclusive-economic-zone"/>
+        </optional>
+        <optional>
+            <attribute name="value"/>
+        </optional>
+        <optional>
+            <attribute name="unit"/>
+        </optional>
+        <optional>
+            <attribute name="continental-shelf"/>
+        </optional>
+    </define>
+    <define name="climate">
+        <element name="climate">
+            <ref name="attlist.climate"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.climate" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="terrain">
+        <element name="terrain">
+            <ref name="attlist.terrain"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.terrain" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="elevation">
+        <element name="elevation">
+            <ref name="attlist.elevation"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.elevation" combine="interleave">
+        <attribute name="mean-elevation"/>
+        <attribute name="lowest-point"/>
+        <attribute name="highest-point"/>
+        <attribute name="unit"/>
+    </define>
+    <define name="natural-resources">
+        <element name="natural-resources">
+            <ref name="attlist.natural-resources"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.natural-resources" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="land-use">
+        <element name="land-use">
+            <ref name="attlist.land-use"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.land-use" combine="interleave">
+        <attribute name="arable-land"/>
+        <attribute name="permanent-crops"/>
+        <attribute name="permanent-pasture"/>
+        <attribute name="forest"/>
+        <attribute name="other"/>
+        <attribute name="unit"/>
+    </define>
+    <define name="irrigated-land">
+        <element name="irrigated-land">
+            <ref name="attlist.irrigated-land"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.irrigated-land" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="natural-hazards">
+        <element name="natural-hazards">
+            <ref name="attlist.natural-hazards"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.natural-hazards" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="geography-note">
+        <element name="geography-note">
+            <ref name="attlist.geography-note"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.geography-note" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="people-society">
+        <element name="people-society">
+            <ref name="attlist.people-society"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="people"/>
+                    <ref name="nationality"/>
+                    <ref name="ethnic-groups"/>
+                    <ref name="languages"/>
+                    <ref name="religions"/>
+                    <ref name="age-structure"/>
+                    <ref name="median-age"/>
+                    <ref name="sex-ratio"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.people-society" combine="interleave">
+        <empty/>
+    </define>
+    <define name="people">
+        <element name="people">
+            <ref name="attlist.people"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.people" combine="interleave">
+        <empty/>
+    </define>
+    <define name="nationality">
+        <element name="nationality">
+            <ref name="attlist.nationality"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.nationality" combine="interleave">
+        <attribute name="noun"/>
+        <attribute name="adjective"/>
+    </define>
+    <define name="ethnic-groups">
+        <element name="ethnic-groups">
+            <ref name="attlist.ethnic-groups"/>
+            <zeroOrMore>
+                <ref name="ethnic-group"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.ethnic-groups" combine="interleave">
+        <empty/>
+    </define>
+    <define name="ethnic-group">
+        <element name="ethnic-group">
+            <ref name="attlist.ethnic-group"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.ethnic-group" combine="interleave">
+        <optional>
+            <attribute name="percentage"/>
+        </optional>
+    </define>
+    <define name="languages">
+        <element name="languages">
+            <ref name="attlist.languages"/>
+            <zeroOrMore>
+                <ref name="language"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.languages" combine="interleave">
+        <empty/>
+    </define>
+    <define name="language">
+        <element name="language">
+            <ref name="attlist.language"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.language" combine="interleave">
+        <optional>
+            <attribute name="percentage"/>
+        </optional>
+    </define>
+    <define name="religions">
+        <element name="religions">
+            <ref name="attlist.religions"/>
+            <zeroOrMore>
+                <ref name="religion"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.religions" combine="interleave">
+        <empty/>
+    </define>
+    <define name="religion">
+        <element name="religion">
+            <ref name="attlist.religion"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.religion" combine="interleave">
+        <optional>
+            <attribute name="percentage"/>
+        </optional>
+    </define>
+    <define name="age-structure">
+        <element name="age-structure">
+            <ref name="attlist.age-structure"/>
+            <zeroOrMore>
+                <ref name="structure"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.age-structure" combine="interleave">
+        <attribute name="image"/>
+        <attribute name="image-title"/>
+    </define>
+    <define name="structure">
+        <element name="structure">
+            <ref name="attlist.structure"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.structure" combine="interleave">
+        <attribute name="female"/>
+        <attribute name="male"/>
+        <attribute name="percentage"/>
+        <attribute name="structure"/>
+    </define>
+    <define name="median-age">
+        <element name="median-age">
+            <ref name="attlist.median-age"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.median-age" combine="interleave">
+        <attribute name="male"/>
+        <attribute name="female"/>
+        <attribute name="unit"/>
+    </define>
+    <define name="sex-ratio">
+        <element name="sex-ratio">
+            <ref name="attlist.sex-ratio"/>
+            <zeroOrMore>
+                <ref name="ratio"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.sex-ratio" combine="interleave">
+        <attribute name="total-population"/>
+        <attribute name="unit"/>
+    </define>
+    <define name="ratio">
+        <element name="ratio">
+            <ref name="attlist.ratio"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.ratio" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="government">
+        <element name="government">
+            <ref name="attlist.government"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="country-name"/>
+                    <ref name="capital"/>
+                    <ref name="administrative-divisions"/>
+                    <ref name="independence"/>
+                    <ref name="national-holiday"/>
+                    <ref name="constitution"/>
+                    <ref name="legal-system"/>
+                    <ref name="international-law"/>
+                    <ref name="citizenship"/>
+                    <ref name="suffrage"/>
+                    <ref name="executive-branch"/>
+                    <ref name="legislative-branch"/>
+                    <ref name="judicial-branch"/>
+                    <ref name="political-parties"/>
+                    <ref name="international-organization-participation"/>
+                    <ref name="diplomatic-representation"/>
+                    <ref name="flag"/>
+                    <ref name="national-symbols"/>
+                    <ref name="national-anthem"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.government" combine="interleave">
+        <attribute name="type"/>
+    </define>
+    <define name="country-name">
+        <element name="country-name">
+            <ref name="attlist.country-name"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.country-name" combine="interleave">
+        <attribute name="long-form"/>
+        <attribute name="short-form"/>
+        <optional>
+            <attribute name="local-long-form"/>
+        </optional>
+        <optional>
+            <attribute name="local-short-form"/>
+        </optional>
+        <attribute name="ethymology"/>
+        <optional>
+            <attribute name="former"/>
+        </optional>
+    </define>
+    <define name="capital">
+        <element name="capital">
+            <ref name="attlist.capital"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.capital" combine="interleave">
+        <optional>
+            <attribute name="coordinate-n"/>
+        </optional>
+        <optional>
+            <attribute name="coordinate-w"/>
+        </optional>
+        <optional>
+            <attribute name="coordinate-e"/>
+        </optional>
+        <optional>
+            <attribute name="coordinate-s"/>
+        </optional>
+        <attribute name="time"/>
+        <optional>
+            <attribute name="daylight-saving-time"/>
+        </optional>
+    </define>
+    <define name="administrative-divisions">
+        <element name="administrative-divisions">
+            <ref name="attlist.administrative-divisions"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.administrative-divisions" combine="interleave">
+        <empty/>
+    </define>
+    <define name="independence">
+        <element name="independence">
+            <ref name="attlist.independence"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.independence" combine="interleave">
+        <attribute name="date"/>
+        <optional>
+            <attribute name="note"/>
+        </optional>
+    </define>
+    <define name="national-holiday">
+        <element name="national-holiday">
+            <ref name="attlist.national-holiday"/>
+            <zeroOrMore>
+                <ref name="holiday"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.national-holiday" combine="interleave">
+        <empty/>
+    </define>
+    <define name="holiday">
+        <element name="holiday">
+            <ref name="attlist.holiday"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.holiday" combine="interleave">
+        <attribute name="date"/>
+        <attribute name="name"/>
+    </define>
+    <define name="constitution">
+        <element name="constitution">
+            <ref name="attlist.constitution"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.constitution" combine="interleave">
+        <optional>
+            <attribute name="history"/>
+        </optional>
+        <optional>
+            <attribute name="amendments"/>
+        </optional>
+    </define>
+    <define name="legal-system">
+        <element name="legal-system">
+            <ref name="attlist.legal-system"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.legal-system" combine="interleave">
+        <empty/>
+    </define>
+    <define name="international-law">
+        <element name="international-law">
+            <ref name="attlist.international-law"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.international-law" combine="interleave">
+        <empty/>
+    </define>
+    <define name="citizenship">
+        <element name="citizenship">
+            <ref name="attlist.citizenship"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.citizenship" combine="interleave">
+        <attribute name="by-birth"/>
+        <attribute name="by-descent-only"/>
+        <attribute name="dual-citizenship-recognized"/>
+        <attribute name="residency-requirement-for-naturalization"/>
+    </define>
+    <define name="suffrage">
+        <element name="suffrage">
+            <ref name="attlist.suffrage"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.suffrage" combine="interleave">
+        <empty/>
+    </define>
+    <define name="executive-branch">
+        <element name="executive-branch">
+            <ref name="attlist.executive-branch"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="chief-of-state"/>
+                    <ref name="head-of-government"/>
+                    <ref name="cabinet"/>
+                    <ref name="elections-appointments"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.executive-branch" combine="interleave">
+        <empty/>
+    </define>
+    <define name="chief-of-state">
+        <element name="chief-of-state">
+            <ref name="attlist.chief-of-state"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.chief-of-state" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="head-of-government">
+        <element name="head-of-government">
+            <ref name="attlist.head-of-government"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.head-of-government" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="cabinet">
+        <element name="cabinet">
+            <ref name="attlist.cabinet"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.cabinet" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="elections-appointments">
+        <element name="elections-appointments">
+            <ref name="attlist.elections-appointments"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.elections-appointments" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="legislative-branch">
+        <element name="legislative-branch">
+            <ref name="attlist.legislative-branch"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="description"/>
+                    <ref name="elections"/>
+                    <ref name="election-result"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.legislative-branch" combine="interleave">
+        <empty/>
+    </define>
+    <define name="description">
+        <element name="description">
+            <ref name="attlist.description"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.description" combine="interleave">
+        <empty/>
+    </define>
+    <define name="elections">
+        <element name="elections">
+            <ref name="attlist.elections"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.elections" combine="interleave">
+        <empty/>
+    </define>
+    <define name="election-result">
+        <element name="election-result">
+            <ref name="attlist.election-result"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.election-result" combine="interleave">
+        <empty/>
+    </define>
+    <define name="judicial-branch">
+        <element name="judicial-branch">
+            <ref name="attlist.judicial-branch"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="highest-courts"/>
+                    <ref name="judge-selection"/>
+                    <ref name="subordinate-courts"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.judicial-branch" combine="interleave">
+        <optional>
+            <attribute name="note"/>
+        </optional>
+    </define>
+    <define name="highest-courts">
+        <element name="highest-courts">
+            <ref name="attlist.highest-courts"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.highest-courts" combine="interleave">
+        <empty/>
+    </define>
+    <define name="judge-selection">
+        <element name="judge-selection">
+            <ref name="attlist.judge-selection"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.judge-selection" combine="interleave">
+        <empty/>
+    </define>
+    <define name="subordinate-courts">
+        <element name="subordinate-courts">
+            <ref name="attlist.subordinate-courts"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.subordinate-courts" combine="interleave">
+        <empty/>
+    </define>
+    <define name="political-parties">
+        <element name="political-parties">
+            <ref name="attlist.political-parties"/>
+            <zeroOrMore>
+                <ref name="party"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.political-parties" combine="interleave">
+        <empty/>
+    </define>
+    <define name="party">
+        <element name="party">
+            <ref name="attlist.party"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.party" combine="interleave">
+        <optional>
+            <attribute name="leader"/>
+        </optional>
+        <attribute name="name"/>
+        <optional>
+            <attribute name="short"/>
+        </optional>
+    </define>
+    <define name="international-organization-participation">
+        <element name="international-organization-participation">
+            <ref name="attlist.international-organization-participation"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.international-organization-participation" combine="interleave">
+        <empty/>
+    </define>
+    <define name="diplomatic-representation">
+        <element name="diplomatic-representation">
+            <ref name="attlist.diplomatic-representation"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="in-us"/>
+                    <ref name="from-us"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.diplomatic-representation" combine="interleave">
+        <empty/>
+    </define>
+    <define name="in-us">
+        <element name="in-us">
+            <ref name="attlist.in-us"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.in-us" combine="interleave">
+        <attribute name="chief-of-commision"/>
+        <attribute name="chancery"/>
+        <attribute name="telephone"/>
+        <attribute name="fax"/>
+        <optional>
+            <attribute name="consulate-general"/>
+        </optional>
+        <optional>
+            <attribute name="consulate"/>
+        </optional>
+    </define>
+    <define name="from-us">
+        <element name="from-us">
+            <ref name="attlist.from-us"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.from-us" combine="interleave">
+        <optional>
+            <attribute name="chief-of-commision"/>
+        </optional>
+        <optional>
+            <attribute name="embassy"/>
+        </optional>
+        <optional>
+            <attribute name="mailing-address"/>
+        </optional>
+        <optional>
+            <attribute name="telephone"/>
+        </optional>
+        <optional>
+            <attribute name="fax"/>
+        </optional>
+        <optional>
+            <attribute name="note"/>
+        </optional>
+    </define>
+    <define name="flag">
+        <element name="flag">
+            <ref name="attlist.flag"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.flag" combine="interleave">
+        <attribute name="description"/>
+        <optional>
+            <attribute name="note"/>
+        </optional>
+    </define>
+    <define name="national-symbols">
+        <element name="national-symbols">
+            <ref name="attlist.national-symbols"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.national-symbols" combine="interleave">
+        <attribute name="symbol"/>
+        <attribute name="national-colors"/>
+    </define>
+    <define name="national-anthem">
+        <element name="national-anthem">
+            <ref name="attlist.national-anthem"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.national-anthem" combine="interleave">
+        <attribute name="name"/>
+        <optional>
+            <attribute name="music"/>
+        </optional>
+        <optional>
+            <attribute name="lyrics"/>
+        </optional>
+        <attribute name="note"/>
+        <attribute name="source"/>
+    </define>
+    <define name="economy">
+        <element name="economy">
+            <ref name="attlist.economy"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="overview"/>
+                    <ref name="gdps"/>
+                    <ref name="agriculture"/>
+                    <ref name="household"/>
+                    <ref name="industries"/>
+                    <ref name="labor-force"/>
+                    <ref name="unemploy"/>
+                    <ref name="taxes"/>
+                    <ref name="budget"/>
+                    <ref name="public-debt"/>
+                    <ref name="inflation-rate"/>
+                    <ref name="bank-lending-rate"/>
+                    <ref name="stock-of-broad-money"/>
+                    <ref name="stock-of-domestic-credit"/>
+                    <ref name="current-account"/>
+                    <ref name="exports"/>
+                    <ref name="imports"/>
+                    <ref name="debt-external"/>
+                    <ref name="exchange-rates"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.economy" combine="interleave">
+        <empty/>
+    </define>
+    <define name="overview">
+        <element name="overview">
+            <ref name="attlist.overview"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.overview" combine="interleave">
+        <empty/>
+    </define>
+    <define name="gdps">
+        <element name="gdps">
+            <ref name="attlist.gdps"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="gdp"/>
+                    <ref name="real-growth-rate"/>
+                    <ref name="per-capita"/>
+                    <ref name="gross-national"/>
+                    <ref name="composition-end-use"/>
+                    <ref name="composition-end-sector"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.gdps" combine="interleave">
+        <attribute name="note"/>
+        <attribute name="exchange-rate"/>
+    </define>
+    <define name="gdp">
+        <element name="gdp">
+            <ref name="attlist.gdp"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.gdp" combine="interleave">
+        <attribute name="to"/>
+        <attribute name="unit"/>
+        <attribute name="value"/>
+    </define>
+    <define name="real-growth-rate">
+        <element name="real-growth-rate">
+            <ref name="attlist.real-growth-rate"/>
+            <zeroOrMore>
+                <ref name="growth-rate"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.real-growth-rate" combine="interleave">
+        <attribute name="unit"/>
+    </define>
+    <define name="growth-rate">
+        <element name="growth-rate">
+            <ref name="attlist.growth-rate"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.growth-rate" combine="interleave">
+        <attribute name="to"/>
+    </define>
+    <define name="per-capita">
+        <element name="per-capita">
+            <ref name="attlist.per-capita"/>
+            <zeroOrMore>
+                <ref name="capita"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.per-capita" combine="interleave">
+        <attribute name="unit"/>
+        <attribute name="note"/>
+    </define>
+    <define name="capita">
+        <element name="capita">
+            <ref name="attlist.capita"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.capita" combine="interleave">
+        <attribute name="to"/>
+    </define>
+    <define name="gross-national">
+        <element name="gross-national">
+            <ref name="attlist.gross-national"/>
+            <zeroOrMore>
+                <ref name="gross"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.gross-national" combine="interleave">
+        <attribute name="unit"/>
+    </define>
+    <define name="gross">
+        <element name="gross">
+            <ref name="attlist.gross"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.gross" combine="interleave">
+        <attribute name="to"/>
+    </define>
+    <define name="composition-end-use">
+        <element name="composition-end-use">
+            <ref name="attlist.composition-end-use"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.composition-end-use" combine="interleave">
+        <attribute name="unit"/>
+        <attribute name="household"/>
+        <attribute name="government"/>
+        <attribute name="investment-capital"/>
+        <attribute name="investment-inventories"/>
+        <attribute name="exports"/>
+        <attribute name="imports"/>
+    </define>
+    <define name="composition-end-sector">
+        <element name="composition-end-sector">
+            <ref name="attlist.composition-end-sector"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.composition-end-sector" combine="interleave">
+        <attribute name="unit"/>
+        <attribute name="agriculture"/>
+        <attribute name="industry"/>
+        <attribute name="services"/>
+    </define>
+    <define name="agriculture">
+        <element name="agriculture">
+            <ref name="attlist.agriculture"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.agriculture" combine="interleave">
+        <attribute name="products"/>
+        <optional>
+            <attribute name="note"/>
+        </optional>
+    </define>
+    <define name="industries">
+        <element name="industries">
+            <ref name="attlist.industries"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.industries" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="labor-force">
+        <element name="labor-force">
+            <ref name="attlist.labor-force"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.labor-force" combine="interleave">
+        <optional>
+            <attribute name="agriculture"/>
+        </optional>
+        <optional>
+            <attribute name="industry"/>
+        </optional>
+        <optional>
+            <attribute name="services"/>
+        </optional>
+        <optional>
+            <attribute name="unit"/>
+        </optional>
+    </define>
+    <define name="unemploy">
+        <element name="unemploy">
+            <ref name="attlist.unemploy"/>
+            <zeroOrMore>
+                <ref name="u-rate"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.unemploy" combine="interleave">
+        <attribute name="unit"/>
+        <optional>
+            <attribute name="note"/>
+        </optional>
+    </define>
+    <define name="u-rate">
+        <element name="u-rate">
+            <ref name="attlist.u-rate"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.u-rate" combine="interleave">
+        <attribute name="to"/>
+    </define>
+    <define name="household">
+        <element name="household">
+            <ref name="attlist.household"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.household" combine="interleave">
+        <attribute name="lowest"/>
+        <attribute name="highest"/>
+        <attribute name="unit"/>
+    </define>
+    <define name="taxes">
+        <element name="taxes">
+            <ref name="attlist.taxes"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.taxes" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="budget">
+        <element name="budget">
+            <ref name="attlist.budget"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.budget" combine="interleave">
+        <attribute name="surplus-deficit"/>
+        <attribute name="revenues"/>
+        <attribute name="expenditures"/>
+    </define>
+    <define name="public-debt">
+        <element name="public-debt">
+            <ref name="attlist.public-debt"/>
+            <zeroOrMore>
+                <ref name="debt"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.public-debt" combine="interleave">
+        <attribute name="unit"/>
+    </define>
+    <define name="debt">
+        <element name="debt">
+            <ref name="attlist.debt"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.debt" combine="interleave">
+        <attribute name="to"/>
+    </define>
+    <define name="inflation-rate">
+        <element name="inflation-rate">
+            <ref name="attlist.inflation-rate"/>
+            <zeroOrMore>
+                <ref name="i-rate"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.inflation-rate" combine="interleave">
+        <attribute name="unit"/>
+    </define>
+    <define name="i-rate">
+        <element name="i-rate">
+            <ref name="attlist.i-rate"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.i-rate" combine="interleave">
+        <attribute name="to"/>
+    </define>
+    <define name="bank-lending-rate">
+        <element name="bank-lending-rate">
+            <ref name="attlist.bank-lending-rate"/>
+            <zeroOrMore>
+                <ref name="b-rate"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.bank-lending-rate" combine="interleave">
+        <attribute name="unit"/>
+        <optional>
+            <attribute name="note"/>
+        </optional>
+    </define>
+    <define name="b-rate">
+        <element name="b-rate">
+            <ref name="attlist.b-rate"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.b-rate" combine="interleave">
+        <attribute name="to"/>
+    </define>
+    <define name="stock-of-broad-money">
+        <element name="stock-of-broad-money">
+            <ref name="attlist.stock-of-broad-money"/>
+            <zeroOrMore>
+                <ref name="money"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.stock-of-broad-money" combine="interleave">
+        <attribute name="unit"/>
+        <attribute name="value"/>
+    </define>
+    <define name="money">
+        <element name="money">
+            <ref name="attlist.money"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.money" combine="interleave">
+        <attribute name="to"/>
+    </define>
+    <define name="stock-of-domestic-credit">
+        <element name="stock-of-domestic-credit">
+            <ref name="attlist.stock-of-domestic-credit"/>
+            <zeroOrMore>
+                <ref name="money"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.stock-of-domestic-credit" combine="interleave">
+        <attribute name="unit"/>
+        <attribute name="value"/>
+    </define>
+    <define name="current-account">
+        <element name="current-account">
+            <ref name="attlist.current-account"/>
+            <zeroOrMore>
+                <ref name="money"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.current-account" combine="interleave">
+        <attribute name="unit"/>
+        <attribute name="value"/>
+    </define>
+    <define name="exports">
+        <element name="exports">
+            <ref name="attlist.exports"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="money"/>
+                    <ref name="partners"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.exports" combine="interleave">
+        <attribute name="commodities"/>
+        <attribute name="unit"/>
+        <attribute name="value"/>
+    </define>
+    <define name="partners">
+        <element name="partners">
+            <ref name="attlist.partners"/>
+            <zeroOrMore>
+                <ref name="partner"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.partners" combine="interleave">
+        <empty/>
+    </define>
+    <define name="partner">
+        <element name="partner">
+            <ref name="attlist.partner"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.partner" combine="interleave">
+        <attribute name="percentage"/>
+    </define>
+    <define name="imports">
+        <element name="imports">
+            <ref name="attlist.imports"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="money"/>
+                    <ref name="partners"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.imports" combine="interleave">
+        <attribute name="commodities"/>
+        <attribute name="unit"/>
+        <attribute name="value"/>
+    </define>
+    <define name="debt-external">
+        <element name="debt-external">
+            <ref name="attlist.debt-external"/>
+            <zeroOrMore>
+                <ref name="money"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.debt-external" combine="interleave">
+        <attribute name="unit"/>
+        <attribute name="value"/>
+    </define>
+    <define name="exchange-rates">
+        <element name="exchange-rates">
+            <ref name="attlist.exchange-rates"/>
+            <zeroOrMore>
+                <ref name="money"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.exchange-rates" combine="interleave">
+        <attribute name="description"/>
+    </define>
+    <define name="energy">
+        <element name="energy">
+            <ref name="attlist.energy"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="electricity"/>
+                    <ref name="crude-oil"/>
+                    <ref name="petroleum-products"/>
+                    <ref name="natural-gas"/>
+                    <ref name="carbon-dioxide"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.energy" combine="interleave">
+        <empty/>
+    </define>
+    <define name="electricity">
+        <element name="electricity">
+            <ref name="attlist.electricity"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="e-access"/>
+                    <ref name="e-production"/>
+                    <ref name="e-consumption"/>
+                    <ref name="e-exports"/>
+                    <ref name="e-imports"/>
+                    <ref name="e-generating-capacity"/>
+                    <ref name="e-fossil-fuels"/>
+                    <ref name="e-sources"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.electricity" combine="interleave">
+        <empty/>
+    </define>
+    <define name="e-access">
+        <element name="e-access">
+            <ref name="attlist.e-access"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.e-access" combine="interleave">
+        <optional>
+            <attribute name="urban-areas"/>
+        </optional>
+        <optional>
+            <attribute name="rural-areas"/>
+        </optional>
+        <optional>
+            <attribute name="population-without"/>
+        </optional>
+        <attribute name="total"/>
+    </define>
+    <define name="e-production">
+        <element name="e-production">
+            <ref name="attlist.e-production"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.e-production" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="e-consumption">
+        <element name="e-consumption">
+            <ref name="attlist.e-consumption"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.e-consumption" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="e-exports">
+        <element name="e-exports">
+            <ref name="attlist.e-exports"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.e-exports" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="e-imports">
+        <element name="e-imports">
+            <ref name="attlist.e-imports"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.e-imports" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="e-generating-capacity">
+        <element name="e-generating-capacity">
+            <ref name="attlist.e-generating-capacity"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.e-generating-capacity" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="e-fossil-fuels">
+        <element name="e-fossil-fuels">
+            <ref name="attlist.e-fossil-fuels"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.e-fossil-fuels" combine="interleave">
+        <attribute name="percentage"/>
+        <attribute name="note"/>
+    </define>
+    <define name="e-sources">
+        <element name="e-sources">
+            <ref name="attlist.e-sources"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.e-sources" combine="interleave">
+        <attribute name="percentage"/>
+        <attribute name="note"/>
+    </define>
+    <define name="crude-oil">
+        <element name="crude-oil">
+            <ref name="attlist.crude-oil"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="e-production"/>
+                    <ref name="e-exports"/>
+                    <ref name="e-imports"/>
+                    <ref name="e-proved-reserves"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.crude-oil" combine="interleave">
+        <empty/>
+    </define>
+    <define name="e-proved-reserves">
+        <element name="e-proved-reserves">
+            <ref name="attlist.e-proved-reserves"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.e-proved-reserves" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="petroleum-products">
+        <element name="petroleum-products">
+            <ref name="attlist.petroleum-products"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="e-production"/>
+                    <ref name="e-consumption"/>
+                    <ref name="e-exports"/>
+                    <ref name="e-imports"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.petroleum-products" combine="interleave">
+        <empty/>
+    </define>
+    <define name="natural-gas">
+        <element name="natural-gas">
+            <ref name="attlist.natural-gas"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="e-production"/>
+                    <ref name="e-consumption"/>
+                    <ref name="e-proved-reserves"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.natural-gas" combine="interleave">
+        <empty/>
+    </define>
+    <define name="carbon-dioxide">
+        <element name="carbon-dioxide">
+            <ref name="attlist.carbon-dioxide"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.carbon-dioxide" combine="interleave">
+        <attribute name="value"/>
+    </define>
+    <define name="communications">
+        <element name="communications">
+            <ref name="attlist.communications"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="telephones"/>
+                    <ref name="broadcast-media"/>
+                    <ref name="internet"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.communications" combine="interleave">
+        <empty/>
+    </define>
+    <define name="telephones">
+        <element name="telephones">
+            <ref name="attlist.telephones"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="fixed"/>
+                    <ref name="mobile"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.telephones" combine="interleave">
+        <empty/>
+    </define>
+    <define name="fixed">
+        <element name="fixed">
+            <ref name="attlist.fixed"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.fixed" combine="interleave">
+        <attribute name="total"/>
+    </define>
+    <define name="mobile">
+        <element name="mobile">
+            <ref name="attlist.mobile"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.mobile" combine="interleave">
+        <attribute name="total"/>
+    </define>
+    <define name="broadcast-media">
+        <element name="broadcast-media">
+            <ref name="attlist.broadcast-media"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.broadcast-media" combine="interleave">
+        <empty/>
+    </define>
+    <define name="internet">
+        <element name="internet">
+            <ref name="attlist.internet"/>
+            <zeroOrMore>
+                <ref name="users"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.internet" combine="interleave">
+        <attribute name="country-code"/>
+    </define>
+    <define name="users">
+        <element name="users">
+            <ref name="attlist.users"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.users" combine="interleave">
+        <attribute name="total"/>
+        <attribute name="percentage"/>
+    </define>
+    <define name="transportation">
+        <element name="transportation">
+            <ref name="attlist.transportation"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="civil-aircraft"/>
+                    <ref name="airports"/>
+                    <ref name="railways"/>
+                    <ref name="roadways"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.transportation" combine="interleave">
+        <empty/>
+    </define>
+    <define name="civil-aircraft">
+        <element name="civil-aircraft">
+            <ref name="attlist.civil-aircraft"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.civil-aircraft" combine="interleave">
+        <attribute name="country-coude-prefix"/>
+    </define>
+    <define name="airports">
+        <element name="airports">
+            <ref name="attlist.airports"/>
+            <zeroOrMore>
+                <choice>
+                    <ref name="paved-runways"/>
+                    <ref name="unpaved-runways"/>
+                </choice>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.airports" combine="interleave">
+        <optional>
+            <attribute name="value"/>
+        </optional>
+    </define>
+    <define name="paved-runways">
+        <element name="paved-runways">
+            <ref name="attlist.paved-runways"/>
+            <zeroOrMore>
+                <ref name="runway"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.paved-runways" combine="interleave">
+        <empty/>
+    </define>
+    <define name="runway">
+        <element name="runway">
+            <ref name="attlist.runway"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.runway" combine="interleave">
+        <attribute name="description"/>
+        <attribute name="value"/>
+    </define>
+    <define name="unpaved-runways">
+        <element name="unpaved-runways">
+            <ref name="attlist.unpaved-runways"/>
+            <zeroOrMore>
+                <ref name="runway"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.unpaved-runways" combine="interleave">
+        <empty/>
+    </define>
+    <define name="railways">
+        <element name="railways">
+            <ref name="attlist.railways"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.railways" combine="interleave">
+        <attribute name="total"/>
+        <attribute name="unit"/>
+    </define>
+    <define name="roadways">
+        <element name="roadways">
+            <ref name="attlist.roadways"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.roadways" combine="interleave">
+        <attribute name="unit"/>
+        <attribute name="paved"/>
+        <attribute name="unpaved"/>
+    </define>
+    <define name="military-security">
+        <element name="military-security">
+            <ref name="attlist.military-security"/>
+            <zeroOrMore>
+                <ref name="branches"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.military-security" combine="interleave">
+        <empty/>
+    </define>
+    <define name="branches">
+        <element name="branches">
+            <ref name="attlist.branches"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.branches" combine="interleave">
+        <empty/>
+    </define>
+    <define name="transnational-issues">
+        <element name="transnational-issues">
+            <ref name="attlist.transnational-issues"/>
+            <zeroOrMore>
+                <ref name="disputes"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    <define name="attlist.transnational-issues" combine="interleave">
+        <empty/>
+    </define>
+    <define name="disputes">
+        <element name="disputes">
+            <ref name="attlist.disputes"/>
+            <text/>
+        </element>
+    </define>
+    <define name="attlist.disputes" combine="interleave">
+        <empty/>
+    </define>
+    <start>
+        <choice>
+            <ref name="country"/>
+        </choice>
+    </start>
+</grammar>
