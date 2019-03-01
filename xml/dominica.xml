@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<country iso-code="dm">
+    <images>
+        <image source="https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/do/images/DO_001.JPG"
+               caption="View of the south side of the island. Dominica features lush mountainous rain forests, and is the home of many rare plant, animal, and bird species (including the Sisserou Parrot featured on its flag)."/>
+        <image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/maps/do-map.gif"/>
+        <image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/locator/cam/do_large_locator.gif"/>
+        <image source="https://www.cia.gov/library/publications/the-world-factbook/graphics/flags/large/do-lgflag.gif"
+               caption="Green with a centered cross of three equal bands - the vertical part is yellow (hoist side), black, and white and the horizontal part is yellow (top), black, and white; superimposed in the center of the cross is a red disk bearing a Sisserou parrot, unique to Dominica, encircled by 10 green, five-pointed stars edged in yellow; the 10 stars represent the 10 administrative divisions (parishes); green symbolizes the island's lush vegetation; the triple-colored cross represents the Christian Trinity; the yellow color denotes sunshine, the main agricultural products (citrus and bananas), and the native Carib Indians; black is for the rich soil and the African heritage of most citizens; white signifies rivers, waterfalls, and the purity of aspirations; the red disc stands for social justice"/>
+    </images>
+    <background>
+        Dominica was the last of the Caribbean islands to be colonized by Europeans due chiefly to the fierce resistance
+        of the native Caribs. France ceded possession to Great Britain in 1763, which colonized the island in 1805. In
+        1980, two years after independence, Dominica's fortunes improved when a corrupt and tyrannical administration
+        was replaced by that of Mary Eugenia CHARLES, the first female prime minister in the Caribbean, who remained in
+        office for 15 years. On 18 September 2017, Hurricane Maria passed over the island causing extensive damage to
+        structures, roads, communications, and the power supply, and largely destroying critical agricultural areas.
+    </background>
+    <geography coordinate-n="15 25" coordinate-w="61 20">
+        <location
+                value="Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, about halfway between Puerto Rico and Trinidad and Tobagoa"/>
+        <map-references value="Central America and the Caribbean"/>
+        <area land="751" water="0" unit="sq km"/>
+        <area-comparative value="slightly more than four times the size of Washington, DC"/>
+        <land-boundaries value="0" unit="km"/>
+        <coastline value="148" unit="km"></coastline>
+        <maritime-claims territorial-sea="12" contiguous-zone="24" exclusive-economic-zone="200" unit="nm"/>
+        <climate value="tropical; moderated by northeast trade winds; heavy rainfall"/>
+        <terrain value="rugged mountains of volcanic origin"/>
+        <elevation mean-elevation="N/A" lowest-point="Caribbean Sea, 0" highest-point="Morne Diablotins, 1447"
+                   unit="m"/>
+        <natural-resources value="timber, hydropower, arable land"/>
+        <land-use arable-land="8" permanent-crops="24" permanent-pasture="2.7" forest="59.2" other="6.1" unit="%"/>
+        <irrigated-land value="N/A"/>
+        <natural-hazards
+                value="flash floods are a constant threat; destructive hurricanes can be expected during the late summer months">
+        </natural-hazards>
+        <geography-note
+                value='known as "The Nature Island of the Caribbean" due to its spectacular, lush, and varied flora and fauna, which are protected by an extensive natural park system; the most mountainous of the Lesser Antilles, its volcanic peaks are cones of lava craters and include Boiling Lake, the second-largest, thermally active lake in the world'/>
+    </geography>
+    <people-society>
+        <people>73897</people>
+        <nationality noun="Dominican(s)" adjective="Dominican"></nationality>
+        <ethnic-groups>
+            <ethnic-group percentage="86.6">Black</ethnic-group>
+            <ethnic-group percentage="9.1">Mixed</ethnic-group>
+            <ethnic-group percentage="2.9">Indigenous</ethnic-group>
+            <ethnic-group percentage="0.2">Unspecified</ethnic-group>
+        </ethnic-groups>
+        <languages>
+            <language>English (official)</language>
+            <language>French patois</language>
+        </languages>
+        <religions>
+            <religion percentage="61.4">Roman Catholic</religion>
+            <religion percentage="28.6">Protestant</religion>
+            <religion percentage="1.3">Rastafarian</religion>
+            <religion percentage="1.2">Jehovah's Witness</religion>
+            <religion percentage="0.3">Other</religion>
+            <religion percentage="6.1">None</religion>
+            <religion percentage="1.1">Unspecified</religion>
+        </religions>
+        <age-structure
+                image="https://www.cia.gov/library/publications/the-world-factbook/graphics/population/DO_popgraph%202016.bmp"
+                image-title="Population pyramid">
+            <structure structure="0-14" percentage="21.72" male="8210" female="7843"/>
+            <structure structure="15-24" percentage="15.14" male="5758" female="5428"/>
+            <structure structure="25-54" percentage="42.2" male="15809" female="15372"/>
+            <structure structure="55-64" percentage="9.81" male="3860" female="3387"/>
+            <structure structure="65-over" percentage="11.14" male="3679" female="4551"/>
+        </age-structure>
+        <median-age male="33" female="34" unit="years"/>
+        <sex-ratio total-population="1.02" unit="male(s)/female">
+            <ratio value="1.05">
+                at birth
+            </ratio>
+            <ratio value="1.05">
+                0-14
+            </ratio>
+            <ratio value="1.06">
+                15-24
+            </ratio>
+            <ratio value="1.03">
+                25-54
+            </ratio>
+            <ratio value="1.15">
+                55-64
+            </ratio>
+            <ratio value="0.79">
+                65-over
+            </ratio>
+        </sex-ratio>
+    </people-society>
+    <government type="parliamentary republic">
+        <country-name long-form="Commonwealth of Dominica" short-form="Dominica"
+                      ethymology='the island was named by explorer Christopher COLUMBUS for the day of the week on which he spotted it, Sunday ("Domingo" in Latin), 3 November 1493'/>
+        <capital coordinate-n="15 18" coordinate-w="61 24" time="UTC-4">
+            Roseau
+        </capital>
+        <administrative-divisions>
+            10 parishes; Saint Andrew, Saint David, Saint George, Saint John, Saint Joseph, Saint Luke, Saint Mark,
+            Saint Patrick, Saint Paul, Saint Peter
+        </administrative-divisions>
+        <independence date="3 November 1978"/>
+        <national-holiday>
+            <holiday date="3 November" name="Independence Day"/>
+        </national-holiday>
+        <constitution
+                history="previous 1967 (preindependence); latest presented 25 July 1978, entered into force 3 November 1978; amended several times, last in 2015"/>
+        <legal-system>
+            common law based on the English model
+        </legal-system>
+        <international-law>
+            accepts compulsory ICJ jurisdiction; accepts ICCt jurisdiction
+        </international-law>
+        <citizenship by-birth="yes" by-descent-only="yes" dual-citizenship-recognized="yes"
+                     residency-requirement-for-naturalization="5 years"/>
+        <suffrage>
+            18 years of age; universal
+        </suffrage>
+        <executive-branch>
+            <chief-of-state value="President Charles A. SAVARIN (since 2 October 2013)"/>
+            <head-of-government value="Prime Minister Roosevelt SKERRIT (since 8 January 2004)"/>
+            <cabinet value="Cabinet appointed by the president on the advice of the prime minister"/>
+            <elections-appointments
+                    value="president nominated by the prime minister and leader of the opposition party and elected by the House of Assembly for a 5-year term (eligible for a second term); election last held on 30 September 2013 (next to be held in October 2018); prime minister appointed by the president"/>
+        </executive-branch>
+        <legislative-branch>
+            <description>
+                unicameral House of Assembly (32 seats; 21 representatives directly elected in single-seat
+                constituencies by simple majority vote, 9 senators appointed by the Assembly, and 2 ex-officio members -
+                the House Speaker and the Clerk of the House; members serve 5-year terms)
+            </description>
+            <elections>last held on 8 December 2014 (next to be held in 2019); note - tradition dictates that the
+                election is held within 5 years of the last election, but technically it is 5 years from the first
+                seating of parliament plus a 90-day grace period
+            </elections>
+            <election-result>
+                percent of vote by party - DLP 57.0%, UWP 42.9%, other 0.1%; seats by party - DLP 15, UWP 6
+            </election-result>
+        </legislative-branch>
+        <judicial-branch>
+            <highest-courts>
+                the Eastern Caribbean Supreme Court (ECSC) is the superior court of the Organization of Eastern
+                Caribbean States; the ECSC - headquartered on St. Lucia - consists of the Court of Appeal - headed by
+                the chief justice and 4 judges - and the High Court with 18 judges; the Court of Appeal is itinerant,
+                travelling to member states on a schedule to hear appeals from the High Court and subordinate courts;
+                High Court judges reside at the member states with 2 in Dominica; note - Dominica is a member of the
+                Caribbean Court of Justice
+            </highest-courts>
+            <judge-selection>
+                chief justice of Eastern Caribbean Supreme Court appointed by the Her Majesty, Queen ELIZABETH II; other
+                justices and judges appointed by the Judicial and Legal Services Commission, an independent body of
+                judicial officials; Court of Appeal justices appointed for life with mandatory retirement at age 65;
+                High Court judges appointed for life with mandatory retirement at age 62
+            </judge-selection>
+            <subordinate-courts>Court of Summary Jurisdiction; magistrates' courts</subordinate-courts>
+        </judicial-branch>
+        <political-parties>
+            <party leader="Judith PESTAINA" name="Dominica Freedom Party" short="DFP"/>
+            <party leader="Roosevelt SKERRIT" name="Dominica Labor Party" short="DLP"/>
+            <party leader="Lennox LINTON" name="Dominica United Workers Party" short="UWP"/>
+        </political-parties>
+        <international-organization-participation>
+            ACP, AOSIS, C, Caricom, CD, CDB, CELAC, Commonwealth of Nations, ECCU, FAO, G-77, IAEA, IBRD, ICCt, ICRM,
+            IDA, IFAD, IFC, IFRCS, ILO, IMF, IMO, Interpol, IOC, ISO (correspondent), ITU, ITUC (NGOs), MIGA, NAM, OAS,
+            OECS, OIF, OPANAL, OPCW, Petrocaribe, UN, UNCTAD, UNESCO, UNIDO, UPU, WFTU, WHO, WIPO, WMO, WTO
+        </international-organization-participation>
+        <diplomatic-representation>
+            <in-us chief-of-commision="Ambassador Vince HENDERSON"
+                   chancery="3216 New Mexico Avenue NW, Washington, DC 20016" telephone="[1] (202) 364-6781"
+                   fax="[1] (202) 364-6791" consulate-general="New York"/>
+            <from-us
+                    note="the US does not have an embassy in Dominica; the US Ambassador to Barbados is accredited to Dominica"/>
+        </diplomatic-representation>
+        <flag description="green with a centered cross of three equal bands - the vertical part is yellow (hoist side), black, and white and the horizontal part is yellow (top), black, and white; superimposed in the center of the cross is a red disk bearing a Sisserou parrot, unique to Dominica, encircled by 10 green, five-pointed stars edged in yellow; the 10 stars represent the 10 administrative divisions (parishes); green symbolizes the island's lush vegetation; the triple-colored cross represents the Christian Trinity; the yellow color denotes sunshine, the main agricultural products (citrus and bananas), and the native Carib Indians; black is for the rich soil and the African heritage of most citizens; white signifies rivers, waterfalls, and the purity of aspirations; the red disc stands for social justice"/>
+        <national-symbols symbol="Sisserou parrot, Carib Wood flower"
+                          national-colors="green, yellow, black, white, red"/>
+        <national-anthem name="Isle of Beauty" music="Wilfred Oscar Morgan POND/Lemuel McPherson CHRISTIAN"
+                         note="adopted 1967"
+                         source="https://www.cia.gov/library/publications/the-world-factbook/anthems/DO.mp3"/>
+    </government>
+    <economy>
+        <overview>
+            The Dominican economy has been dependent on agriculture - primarily bananas - in years past, but
+            increasingly has been driven by tourism as the government seeks to promote Dominica as an "ecotourism"
+            destination. Moreover, Dominica has an offshore medical education sector. In order to diversify the island's
+            economy, the government is also attempting to foster an offshore financial industry and plans to sign
+            agreements with the private sector to develop geothermal energy resources. In 2003, the government began a
+            comprehensive restructuring of the economy - including the elimination of price controls, privatization of
+            the state banana company, and tax increases - to address an economic and financial crisis and to meet IMF
+            requirements. In 2009 and 2013, the economy contracted as a result of the global recession; growth remains
+            anemic. Although public debt levels continue to exceed pre-recession levels, the debt burden declined from
+            78% of GDP in 2011 to approximately 70% in 2012.
+        </overview>
+        <gdps note="data are in 2016 US dollars" exchange-rate="$581 million">
+            <gdp to="2016" unit="$" value="million">805</gdp>
+            <gdp to="2015" unit="$" value="million">774</gdp>
+            <gdp to="2014" unit="$" value="million">786</gdp>
+            <real-growth-rate unit="%">
+                <growth-rate to="2016">2.6</growth-rate>
+                <growth-rate to="2015">-2.5</growth-rate>
+                <growth-rate to="2014">4.4</growth-rate>
+            </real-growth-rate>
+            <per-capita unit="$" note="data are in 2016 US dollars">
+                <capita to="2016">11300</capita>
+                <capita to="2015">11000</capita>
+                <capita to="2014">11300</capita>
+            </per-capita>
+            <gross-national unit="% of GDP">
+                <gross to="2016">20.4</gross>
+                <gross to="2015">14.6</gross>
+                <gross to="2014">7.7</gross>
+            </gross-national>
+            <composition-end-use unit="%" household="73.8" government="22.8" investment-capital="12.5"
+                                 investment-inventories="0" exports="39.1" imports="-48.2"/>
+            <composition-end-sector unit="%" agriculture="14.7" industry="13.4" services="71.9"/>
+        </gdps>
+        <agriculture products="bananas, citrus, mangos, root crops, coconuts, cocoa"
+                     note="forest and fishery potential not exploited"/>
+        <industries value="soap, coconut oil, tourism, copra, furniture, cement blocks, shoes"/>
+        <labor-force agriculture="40" industry="32" services="28" unit="%">25,000</labor-force>
+        <unemploy unit="%">
+            <u-rate to="2000">23</u-rate>
+        </unemploy>
+        <taxes value="28.5% of GDP"/>
+        <budget surplus-deficit="0% of GDP" revenues="$148.1 million" expenditures="$148.1 million"/>
+        <public-debt unit="% of GDP">
+            <debt to="2016">81</debt>
+            <debt to="2015">83</debt>
+        </public-debt>
+        <inflation-rate unit="%">
+            <i-rate to="2016">0</i-rate>
+            <i-rate to="2015">-0.8</i-rate>
+        </inflation-rate>
+        <bank-lending-rate unit="%">
+            <b-rate to="2016">8.33</b-rate>
+            <b-rate to="2015">8.67</b-rate>
+        </bank-lending-rate>
+        <stock-of-broad-money unit="$" value="million">
+            <money to="2016">509.7</money>
+            <money to="2015">480.9</money>
+        </stock-of-broad-money>
+        <stock-of-domestic-credit unit="$" value="million">
+            <money to="2016">195.9</money>
+            <money to="2015">277.8</money>
+        </stock-of-domestic-credit>
+        <current-account unit="$" value="million">
+            <money to="2016">5</money>
+            <money to="2015">-85.6</money>
+        </current-account>
+        <exports commodities="bananas, soap, bay oil, vegetables, grapefruit, oranges" unit="$" value="million">
+            <money to="2016">43.7</money>
+            <money to="2015">44.9</money>
+            <partners>
+                <partner percentage="15.4">Trinidad and Tobago</partner>
+                <partner percentage="13.3">Jamaica</partner>
+                <partner percentage="13">Saudi Arabia</partner>
+                <partner percentage="11.8">St. Kitts and Nevis</partner>
+                <partner percentage="9.3">Guyana</partner>
+                <partner percentage="5.1">Barbados</partner>
+                <partner percentage="5.1">US</partner>
+                <partner percentage="4.5">Antigua and Barbuda</partner>
+                <partner percentage="4.1">Egypt</partner>
+            </partners>
+        </exports>
+        <imports commodities="manufactured goods, machinery and equipment, food, chemicals" unit="$" value="million">
+            <money to="2016">186.4</money>
+            <money to="2015">194.4</money>
+            <partners>
+                <partner percentage="23.4">US</partner>
+                <partner percentage="18.1">Trinidad and Tobago</partner>
+                <partner percentage="8.7">Italy</partner>
+                <partner percentage="5.4">UK</partner>
+            </partners>
+        </imports>
+        <debt-external unit="$" value="million">
+            <money to="2016">288.6</money>
+            <money to="2015">314.2</money>
+        </debt-external>
+        <exchange-rates description="East Caribbean dollars (XCD) per US dollar">
+            <money to="2016">2.7</money>
+            <money to="2015">2.7</money>
+            <money to="2014">2.7</money>
+            <money to="2013">2.7</money>
+            <money to="2012">2.7</money>
+        </exchange-rates>
+    </economy>
+    <energy>
+        <electricity>
+            <e-access population-without="5900" total="93%"/>
+            <e-production value="97 million kWh"/>
+            <e-consumption value="90.21 million kWh"/>
+            <e-exports value="0 kWh"/>
+            <e-imports value="0 kWh"/>
+            <e-generating-capacity value="33,200 kW"/>
+            <e-fossil-fuels percentage="60.2" note="of total installed capacity"/>
+            <e-sources percentage="21.7" note="of total installed capacity"/>
+        </electricity>
+        <crude-oil>
+            <e-production value="0 bbl/day"/>
+            <e-exports value="0 bbl/day"/>
+            <e-imports value="0 bbl/day"/>
+            <e-proved-reserves value="N/A"/>
+        </crude-oil>
+        <petroleum-products>
+            <e-production value="0 bbl/day"/>
+            <e-consumption value="1000 bbl/day"/>
+            <e-exports value="0 bbl/day"/>
+            <e-imports value="978.2 bbl/day"/>
+        </petroleum-products>
+        <natural-gas>
+            <e-production value="0 cu m"/>
+            <e-consumption value="0 cu m"/>
+            <e-proved-reserves value="N/A"/>
+        </natural-gas>
+        <carbon-dioxide value="100,000 Mt"/>
+    </energy>
+    <communications>
+        <telephones>
+            <fixed total="13,328"/>
+            <mobile total="78,444"/>
+        </telephones>
+        <broadcast-media>
+            no terrestrial TV service available; subscription cable TV provider offers some locally produced programming
+            plus channels from the US, Latin America, and the Caribbean; state-operated radio broadcasts on 6 stations;
+            privately owned radio broadcasts on about 15 stations
+        </broadcast-media>
+        <internet country-code=".dm">
+            <users total="49,439" percentage="67"/>
+        </internet>
+    </communications>
+    <transportation>
+        <civil-aircraft country-coude-prefix="J7"/>
+        <airports value="2">
+            <paved-runways>
+                <runway description="1,524 to 2,437 m" value="1"/>
+                <runway description="914 to 1,523 m" value="1"/>
+            </paved-runways>
+        </airports>
+        <railways total="0" unit="km"/>
+        <roadways unit="km" paved="762" unpaved="750"/>
+    </transportation>
+    <military-security>
+        <branches>
+            no regular military forces; Commonwealth of Dominica Police Force (includes Coast Guard)
+        </branches>
+    </military-security>
+    <transnational-issues>
+        <disputes>
+            Dominica is the only Caribbean state to challenge Venezuela's sovereignty claim over Aves Island and joins
+            the other island nations in challenging whether the feature sustains human habitation, a criterion under the
+            UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ and continental shelf claims
+            over a large portion of the eastern Caribbean Sea
+        </disputes>
+    </transnational-issues>
+</country>

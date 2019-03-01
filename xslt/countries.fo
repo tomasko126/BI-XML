@@ -1,0 +1,3209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+   <fo:layout-master-set>
+      <fo:simple-page-master master-name="A4-portrait"
+                             page-height="29.0cm"
+                             page-width="21.0cm"
+                             margin="2cm"
+                             margin-bottom="3cm">
+         <fo:region-body/>
+         <fo:region-after/>
+      </fo:simple-page-master>
+   </fo:layout-master-set>
+   <fo:page-sequence master-reference="A4-portrait">
+      <fo:static-content flow-name="xsl-region-after">
+         <fo:block text-align="center">
+                        Page <fo:page-number/>
+         </fo:block>
+      </fo:static-content>
+      <fo:flow flow-name="xsl-region-body">
+         <fo:block font-size="16pt" font-weight="400" text-align="center">
+                        Countries
+                    </fo:block>
+         <fo:list-block provisional-distance-between-starts="0.3cm"
+                        provisional-label-separation="0.15cm"
+                        margin-top="20pt">
+            <fo:list-item>
+               <fo:list-item-label end-indent="label-end()">
+                  <fo:block>
+                     <fo:inline margin-left="10pt">·</fo:inline>
+                  </fo:block>
+               </fo:list-item-label>
+               <fo:list-item-body start-indent="body-start()">
+                  <fo:block>
+                     <fo:basic-link internal-destination="dm" color="blue" text-decoration="underline">Dominica</fo:basic-link>
+                  </fo:block>
+               </fo:list-item-body>
+            </fo:list-item>
+            <fo:list-item>
+               <fo:list-item-label end-indent="label-end()">
+                  <fo:block>
+                     <fo:inline margin-left="10pt">·</fo:inline>
+                  </fo:block>
+               </fo:list-item-label>
+               <fo:list-item-body start-indent="body-start()">
+                  <fo:block>
+                     <fo:basic-link internal-destination="xk" color="blue" text-decoration="underline">Kosovo</fo:basic-link>
+                  </fo:block>
+               </fo:list-item-body>
+            </fo:list-item>
+            <fo:list-item>
+               <fo:list-item-label end-indent="label-end()">
+                  <fo:block>
+                     <fo:inline margin-left="10pt">·</fo:inline>
+                  </fo:block>
+               </fo:list-item-label>
+               <fo:list-item-body start-indent="body-start()">
+                  <fo:block>
+                     <fo:basic-link internal-destination="sc" color="blue" text-decoration="underline">Seychelles</fo:basic-link>
+                  </fo:block>
+               </fo:list-item-body>
+            </fo:list-item>
+            <fo:list-item>
+               <fo:list-item-label end-indent="label-end()">
+                  <fo:block>
+                     <fo:inline margin-left="10pt">·</fo:inline>
+                  </fo:block>
+               </fo:list-item-label>
+               <fo:list-item-body start-indent="body-start()">
+                  <fo:block>
+                     <fo:basic-link internal-destination="kn" color="blue" text-decoration="underline">Saint Kitts and Nevis</fo:basic-link>
+                  </fo:block>
+               </fo:list-item-body>
+            </fo:list-item>
+         </fo:list-block>
+         <fo:block page-break-before="always"/>
+         <fo:block font-size="15pt" font-weight="bold" text-align="center" id="dm">Dominica</fo:block>
+         <fo:block padding-top="15pt">
+            <fo:block font-weight="bold">Overview</fo:block>
+        Dominica was the last of the Caribbean islands to be colonized by Europeans due chiefly to the fierce resistance
+        of the native Caribs. France ceded possession to Great Britain in 1763, which colonized the island in 1805. In
+        1980, two years after independence, Dominica's fortunes improved when a corrupt and tyrannical administration
+        was replaced by that of Mary Eugenia CHARLES, the first female prime minister in the Caribbean, who remained in
+        office for 15 years. On 18 September 2017, Hurricane Maria passed over the island causing extensive damage to
+        structures, roads, communications, and the power supply, and largely destroying critical agricultural areas.
+    </fo:block>
+         <fo:block font-weight="bold" margin-top="10pt">Images</fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/do/images/DO_001.JPG')&#xA;                        "/>
+            </fo:block>
+            <fo:block>View of the south side of the island. Dominica features lush mountainous rain forests, and is the home of many rare plant, animal, and bird species (including the Sisserou Parrot featured on its flag).</fo:block>
+         </fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/graphics/maps/do-map.gif')&#xA;                        "/>
+            </fo:block>
+            <fo:block/>
+         </fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/graphics/locator/cam/do_large_locator.gif')&#xA;                        "/>
+            </fo:block>
+            <fo:block/>
+         </fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/graphics/flags/large/do-lgflag.gif')&#xA;                        "/>
+            </fo:block>
+            <fo:block>Green with a centered cross of three equal bands - the vertical part is yellow (hoist side), black, and white and the horizontal part is yellow (top), black, and white; superimposed in the center of the cross is a red disk bearing a Sisserou parrot, unique to Dominica, encircled by 10 green, five-pointed stars edged in yellow; the 10 stars represent the 10 administrative divisions (parishes); green symbolizes the island's lush vegetation; the triple-colored cross represents the Christian Trinity; the yellow color denotes sunshine, the main agricultural products (citrus and bananas), and the native Carib Indians; black is for the rich soil and the African heritage of most citizens; white signifies rivers, waterfalls, and the purity of aspirations; the red disc stands for social justice</fo:block>
+         </fo:block>
+         <fo:block margin-top="10pt">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Geography</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Location:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Caribbean, island between the Caribbean Sea and the North Atlantic Ocean, about halfway between Puerto Rico and Trinidad and Tobagoa</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Area:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>751sq km,
+                                0sq km</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Coastline:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>148km</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Area comparison:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>slightly more than four times the size of Washington, DC</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Map reference:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Central America and the Caribbean</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Climate:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>tropical; moderated by northeast trade winds; heavy rainfall</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Terrain:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>rugged mountains of volcanic origin</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Natural resources:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>timber, hydropower, arable land</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Natural hazards:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>flash floods are a constant threat; destructive hurricanes can be expected during the late summer months</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt">
+               <fo:table>
+                  <fo:table-header>
+                     <fo:table-row>
+                        <fo:table-cell>
+                           <fo:block font-weight="bold">Society</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-header>
+                  <fo:table-body>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Population:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>73897</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Median age (in years):
+                                </fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                                    Male: 33,
+                                    Female:
+                                    34</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Ethnic groups:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                              <fo:block>86.6%
+                                                Black</fo:block>
+                              <fo:block>9.1%
+                                                Mixed</fo:block>
+                              <fo:block>2.9%
+                                                Indigenous</fo:block>
+                              <fo:block>0.2%
+                                                Unspecified</fo:block>
+                           </fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Languages:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>English (official)</fo:block>
+                           <fo:block>French patois</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Religions:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>61.4%
+                                        Roman Catholic</fo:block>
+                           <fo:block>28.6%
+                                        Protestant</fo:block>
+                           <fo:block>1.3%
+                                        Rastafarian</fo:block>
+                           <fo:block>1.2%
+                                        Jehovah's Witness</fo:block>
+                           <fo:block>0.3%
+                                        Other</fo:block>
+                           <fo:block>6.1%
+                                        None</fo:block>
+                           <fo:block>1.1%
+                                        Unspecified</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Age structure:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>0-14:
+                                        21.72%
+                                    </fo:block>
+                           <fo:block>15-24:
+                                        15.14%
+                                    </fo:block>
+                           <fo:block>25-54:
+                                        42.2%
+                                    </fo:block>
+                           <fo:block>55-64:
+                                        9.81%
+                                    </fo:block>
+                           <fo:block>65-over:
+                                        11.14%
+                                    </fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-body>
+               </fo:table>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt">
+               <fo:block>
+                  <fo:table>
+                     <fo:table-header>
+                        <fo:table-row>
+                           <fo:table-cell>
+                              <fo:block font-weight="bold">Government</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-header>
+                     <fo:table-body>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Type:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>parliamentary republic</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Country names:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>Commonwealth of Dominica,
+                                        Dominica</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Country divisions:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            10 parishes; Saint Andrew, Saint David, Saint George, Saint John, Saint Joseph, Saint Luke, Saint Mark,
+            Saint Patrick, Saint Paul, Saint Peter
+        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Capital city:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            Roseau
+        15 18N
+                                            61 24W
+                                            </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Independence date:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>3 November 1978</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Constitution history:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>previous 1967 (preindependence); latest presented 25 July 1978, entered into force 3 November 1978; amended several times, last in 2015</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Legal system:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            common law based on the English model
+        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">International Law:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            accepts compulsory ICJ jurisdiction; accepts ICCt jurisdiction
+        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Citizenship:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>By birth:
+                                        yes</fo:block>
+                              <fo:block>
+                                        By descent only:
+                                        yes</fo:block>
+                              <fo:block>
+                                        Dual citizenship recognized:
+                                        yes</fo:block>
+                              <fo:block>
+                                        Residency requirement for naturalization:
+                                        5 years</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Executive Branch:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Chief of state:
+                                        President Charles A. SAVARIN (since 2 October 2013)</fo:block>
+                              <fo:block>
+                                        Head of government:
+                                        Prime Minister Roosevelt SKERRIT (since 8 January 2004)</fo:block>
+                              <fo:block>
+                                        Cabinet:
+                                        Cabinet appointed by the president on the advice of the prime minister</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">National symbols:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>Sisserou parrot, Carib Wood flower</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">National anthem:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Name:
+                                        Isle of Beauty</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-body>
+                  </fo:table>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt">
+               <fo:block>
+                  <fo:block font-weight="bold">Economy</fo:block>
+                  <fo:block>
+            The Dominican economy has been dependent on agriculture - primarily bananas - in years past, but
+            increasingly has been driven by tourism as the government seeks to promote Dominica as an "ecotourism"
+            destination. Moreover, Dominica has an offshore medical education sector. In order to diversify the island's
+            economy, the government is also attempting to foster an offshore financial industry and plans to sign
+            agreements with the private sector to develop geothermal energy resources. In 2003, the government began a
+            comprehensive restructuring of the economy - including the elimination of price controls, privatization of
+            the state banana company, and tax increases - to address an economic and financial crisis and to meet IMF
+            requirements. In 2009 and 2013, the economy contracted as a result of the global recession; growth remains
+            anemic. Although public debt levels continue to exceed pre-recession levels, the debt burden declined from
+            78% of GDP in 2011 to approximately 70% in 2012.
+        </fo:block>
+                  <fo:table margin-top="20pt">
+                     <fo:table-body>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Real Growth Rate:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                            To 2016: 2.6%
+                                        </fo:block>
+                              <fo:block>
+                                            To 2015: -2.5%
+                                        </fo:block>
+                              <fo:block>
+                                            To 2014: 4.4%
+                                        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Agriculture:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>bananas, citrus, mangos, root crops, coconuts, cocoa</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Industries:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>soap, coconut oil, tourism, copra, furniture, cement blocks, shoes</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Taxes:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>28.5% of GDP</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Public Debt:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                            To 2016: 81%
+                                        </fo:block>
+                              <fo:block>
+                                            To 2015: 83%
+                                        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Imported comodities:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>manufactured goods, machinery and equipment, food, chemicals</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Import partners:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>US:
+                                            23.4</fo:block>
+                              <fo:block>Trinidad and Tobago:
+                                            18.1</fo:block>
+                              <fo:block>Italy:
+                                            8.7</fo:block>
+                              <fo:block>UK:
+                                            5.4</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Exported comodities:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>bananas, soap, bay oil, vegetables, grapefruit, oranges</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Export partners:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>Trinidad and Tobago:
+                                            15.4</fo:block>
+                              <fo:block>Jamaica:
+                                            13.3</fo:block>
+                              <fo:block>Saudi Arabia:
+                                            13</fo:block>
+                              <fo:block>St. Kitts and Nevis:
+                                            11.8</fo:block>
+                              <fo:block>Guyana:
+                                            9.3</fo:block>
+                              <fo:block>Barbados:
+                                            5.1</fo:block>
+                              <fo:block>US:
+                                            5.1</fo:block>
+                              <fo:block>Antigua and Barbuda:
+                                            4.5</fo:block>
+                              <fo:block>Egypt:
+                                            4.1</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-body>
+                  </fo:table>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt" text-align="justify">
+               <fo:block>
+                  <fo:table>
+                     <fo:table-header>
+                        <fo:table-row>
+                           <fo:table-cell>
+                              <fo:block font-weight="bold">Energy</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-header>
+                     <fo:table-body>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Electricity:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Access:
+                                        93%</fo:block>
+                              <fo:block>
+                                        Production:
+                                        97 million kWh</fo:block>
+                              <fo:block>
+                                        Consumption:
+                                        90.21 million kWh</fo:block>
+                              <fo:block>
+                                        Exports:
+                                        0 kWh</fo:block>
+                              <fo:block>
+                                        Imports:
+                                        0 kWh</fo:block>
+                              <fo:block>
+                                        Generating capacity:
+                                        33,200 kW</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Crude oil:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Production:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Exports:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Imports:
+                                        0 bbl/day</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Petroleum:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Production:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Consumption:
+                                        1000 bbl/day</fo:block>
+                              <fo:block>
+                                        Exports:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Imports:
+                                        978.2 bbl/day</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Natural gas:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Production:
+                                        0 cu m</fo:block>
+                              <fo:block>
+                                        Consumption:
+                                        0 cu m</fo:block>
+                              <fo:block>
+                                        Proved reserves:
+                                        N/A</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Carbon Dioxide</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>100,000 Mt</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-body>
+                  </fo:table>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:block>
+               <fo:table>
+                  <fo:table-header>
+                     <fo:table-row>
+                        <fo:table-cell>
+                           <fo:block font-weight="bold">Communications</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-header>
+                  <fo:table-body>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Telephones:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                                    No. of fixed lines:
+                                    13,328</fo:block>
+                           <fo:block>
+                                    No. of mobile lines:
+                                    78,444</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Broadcast media:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+        
+            
+            
+        
+        
+            no terrestrial TV service available; subscription cable TV provider offers some locally produced programming
+            plus channels from the US, Latin America, and the Caribbean; state-operated radio broadcasts on 6 stations;
+            privately owned radio broadcasts on about 15 stations
+        
+        
+            
+        
+    </fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Internet information</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                                            Country code:
+                                            .dm</fo:block>
+                           <fo:block>
+                                            Users: 49,439,
+                                            percentage:
+                                            67</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-body>
+               </fo:table>
+            </fo:block>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Transportation</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Roadways:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Paved:
+                                762 km
+                            </fo:block>
+                        <fo:block>Unpaved:
+                                750 km
+                            </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Railways:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>
+                                Total: 0 km
+                            </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Airports:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>2</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Civil aircraft country code:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>J7</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Military security</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Branches:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>
+            no regular military forces; Commonwealth of Dominica Police Force (includes Coast Guard)
+        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Transnational issues</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Disputes:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>
+            Dominica is the only Caribbean state to challenge Venezuela's sovereignty claim over Aves Island and joins
+            the other island nations in challenging whether the feature sustains human habitation, a criterion under the
+            UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ and continental shelf claims
+            over a large portion of the eastern Caribbean Sea
+        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block page-break-before="always"/>
+         <fo:block font-size="15pt" font-weight="bold" text-align="center" id="xk">Kosovo</fo:block>
+         <fo:block padding-top="15pt">
+            <fo:block font-weight="bold">Overview</fo:block>
+        The central Balkans were part of the Roman and Byzantine Empires before ethnic Serbs migrated to the territories
+        of modern Kosovo in the 7th century. During the medieval period, Kosovo became the center of a Serbian Empire
+        and saw the construction of many important Serb religious sites, including many architecturally significant
+        Serbian Orthodox monasteries. The defeat of Serbian forces at the Battle of Kosovo in 1389 led to five centuries
+        of Ottoman rule during which large numbers of Turks and Albanians moved to Kosovo. By the end of the 19th
+        century, Albanians replaced Serbs as the dominant ethnic group in Kosovo. Serbia reacquired control over the
+        region from the Ottoman Empire during the First Balkan War of 1912. After World War II, Kosovo's present-day
+        boundaries were established when Kosovo became an autonomous province of Serbia in the Socialist Federal
+        Republic of Yugoslavia (S.F.R.Y.). Despite legislative concessions, Albanian nationalism increased in the 1980s,
+        which led to riots and calls for Kosovo's independence. The Serbs - many of whom viewed Kosovo as their cultural
+        heartland - instituted a new constitution in 1989 revoking Kosovo's autonomous status. Kosovo's Albanian leaders
+        responded in 1991 by organizing a referendum declaring Kosovo independent. Serbia undertook repressive measures
+        against the Kosovar Albanians in the 1990s, provoking a Kosovar Albanian insurgency. Beginning in 1998, Serbia
+        conducted a brutal counterinsurgency campaign that resulted in massacres and massive expulsions of ethnic
+        Albanians (some 800,000 ethnic Albanians were forced from their homes in Kosovo). After international attempts
+        to mediate the conflict failed, a three-month NATO military operation against Serbia beginning in March 1999
+        forced the Serbs to agree to withdraw their military and police forces from Kosovo. UN Security Council
+        Resolution 1244 (1999) placed Kosovo under a transitional administration, the UN Interim Administration Mission
+        in Kosovo (UNMIK), pending a determination of Kosovo's future status. A UN-led process began in late 2005 to
+        determine Kosovo's final status. The 2006-07 negotiations ended without agreement between Belgrade and Pristina,
+        though the UN issued a comprehensive report on Kosovo's final status that endorsed independence. On 17 February
+        2008, the Kosovo Assembly declared Kosovo independent. Since then, over 110 countries have recognized Kosovo,
+        and it has joined numerous international organizations. In October 2008, Serbia sought an advisory opinion from
+        the International Court of Justice (ICJ) on the legality under international law of Kosovo's declaration of
+        independence. The ICJ released the advisory opinion in July 2010 affirming that Kosovo's declaration of
+        independence did not violate general principles of international law, UN Security Council Resolution 1244, or
+        the Constitutive Framework. The opinion was closely tailored to Kosovo's unique history and circumstances.
+        Demonstrating Kosovo’s development into a sovereign, multi-ethnic, democratic country the international
+        community ended the period of Supervised Independence in 2012. Elections were held throughout Kosovo in 2013 and
+        2014, at the municipal and national level respectively. Serbia continues to reject Kosovo's independence, but
+        the two countries reached an agreement to normalize their relations in April 2013 through EU-facilitated talks
+        and are currently engaged in the implementation process. Kosovo seeks full integration into the international
+        community, and has pursued bilateral recognitions and eventual membership in international organizations, such
+        as the UN, EU, and NATO.
+    </fo:block>
+         <fo:block font-weight="bold" margin-top="10pt">Images</fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/graphics/maps/kv-map.gif')&#xA;                        "/>
+            </fo:block>
+            <fo:block/>
+         </fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/graphics/locator/eur/kv_large_locator.gif')&#xA;                        "/>
+            </fo:block>
+            <fo:block/>
+         </fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/graphics/flags/large/kv-lgflag.gif')&#xA;                        "/>
+            </fo:block>
+            <fo:block>Centered on a dark blue field is a gold-colored silhouette of Kosovo surmounted by six white, five-pointed stars arrayed in a slight arc; each star represents one of the major ethnic groups of Kosovo: Albanians, Serbs, Turks, Gorani, Roma, and Bosniaks</fo:block>
+         </fo:block>
+         <fo:block margin-top="10pt">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Geography</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Location:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Southeast Europe, between Serbia and Macedonia</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Area:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>10887sq km,
+                                0sq km</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Coastline:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>0km</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Area comparison:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>slightly larger than Delaware</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Map reference:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Europe</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Climate:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>influenced by continental air masses resulting in relatively cold winters with heavy snowfall and hot, dry summers and autumns; Mediterranean and alpine influences create regional variation; maximum rainfall between October and December</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Terrain:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>flat fluvial basin at an elevation of 400-700 m above sea level surrounded by several high mountain ranges with elevations of 2,000 to 2,500 m</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Natural resources:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>nickel, lead, zinc, magnesium, lignite, kaolin, chrome, bauxite</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Natural hazards:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>None</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt">
+               <fo:table>
+                  <fo:table-header>
+                     <fo:table-row>
+                        <fo:table-cell>
+                           <fo:block font-weight="bold">Society</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-header>
+                  <fo:table-body>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Population:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>1,895,250</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Median age (in years):
+                                </fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                                    Male: 28.8,
+                                    Female:
+                                    29.5</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Ethnic groups:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                              <fo:block>92.9%
+                                                Albanians</fo:block>
+                              <fo:block>1.6%
+                                                Bosniaks</fo:block>
+                              <fo:block>1.5%
+                                                Serbs</fo:block>
+                              <fo:block>1.1%
+                                                Turk</fo:block>
+                              <fo:block>0.9%
+                                                Ashkali</fo:block>
+                              <fo:block>0.7%
+                                                Egyptian</fo:block>
+                              <fo:block>0.6%
+                                                Gorani</fo:block>
+                              <fo:block>0.5%
+                                                Romani</fo:block>
+                              <fo:block>0.2%
+                                                Other/Unspecified</fo:block>
+                           </fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Languages:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Albanian (official)</fo:block>
+                           <fo:block>Bosnian</fo:block>
+                           <fo:block>Serbian (official)</fo:block>
+                           <fo:block>Turkish</fo:block>
+                           <fo:block>other (includes Romani)</fo:block>
+                           <fo:block>unspecified</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Religions:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>95.6%
+                                        Muslim</fo:block>
+                           <fo:block>2.2%
+                                        Roman Catholic</fo:block>
+                           <fo:block>1.5%
+                                        Orthodox</fo:block>
+                           <fo:block>0.07%
+                                        Other</fo:block>
+                           <fo:block>0.07%
+                                        Mone</fo:block>
+                           <fo:block>0.6%
+                                        Unspecified</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Age structure:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>0-14:
+                                        25.01%
+                                    </fo:block>
+                           <fo:block>15-24:
+                                        17.22%
+                                    </fo:block>
+                           <fo:block>25-54:
+                                        42.57%
+                                    </fo:block>
+                           <fo:block>55-64:
+                                        7.92%
+                                    </fo:block>
+                           <fo:block>65-over:
+                                        7.28%
+                                    </fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-body>
+               </fo:table>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt">
+               <fo:block>
+                  <fo:table>
+                     <fo:table-header>
+                        <fo:table-row>
+                           <fo:table-cell>
+                              <fo:block font-weight="bold">Government</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-header>
+                     <fo:table-body>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Type:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>presidential republic</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Country names:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>Republic of Kosovo,
+                                        Kosovo</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Country divisions:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            38 municipalities (komunat, singular - komuna (Albanian); opstine, singular - opstina (Serbian)); Decan
+            (Decani), Dragash (Dragas), Ferizaj (Urosevac), Fushe Kosove (Kosovo Polje), Gjakove (Dakovica), Gjilan
+            (Gnjilane), Gllogovc (Glogovac), Gracanice (Gracanica), Hani i Elezit (Deneral Jankovic), Istog (Istok),
+            Junik, Kacanik, Kamenice (Kamenica), Kline (Klina), Kllokot (Klokot), Leposaviq (Leposavic), Lipjan
+            (Lipljan), Malisheve (Malisevo), Mamushe (Mamusa), Mitrovice e Jug (Juzna Mitrovica) [South Mitrovica],
+            Mitrovice e Veriut (Severna Mitrovica) [North Mitrovica], Novoberde (Novo Brdo), Obiliq (Obilic), Partesh
+            (Partes), Peje (Pec), Podujeve (Podujevo), Prishtine (Pristina), Prizren, Rahovec (Orahovac), Ranillug
+            (Ranilug), Shterpce (Strpce), Shtime (Stimlje), Skenderaj (Srbica), Suhareke (Suva Reka), Viti (Vitina),
+            Vushtrri (Vucitrn), Zubin Potok, Zvecan
+        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Capital city:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            Pristina (Prishtine, Prishtina)
+        42 40N
+                                            21 10E
+                                            </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Independence date:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>17 February 2008</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Constitution history:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>previous 1974, 1990; latest (postindependence) draft finalized 2 April 2008, signed 7 April 2008, ratified 9 April 2008, entered into force 15 June 2008; note - amendment 24, passed by the Assembly in August 2015, established the Kosovo Relocated Specialist Institution, a court established to try war crimes allegedly committed by the Kosovo Liberation Army in the late 1990s</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Legal system:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            civil law system; note - the European Union Rule of Law Mission (EULEX) retains limited executive powers
+            related to the investigation of such issues as war crimes
+        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">International Law:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt
+        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Citizenship:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>By birth:
+                                        no</fo:block>
+                              <fo:block>
+                                        By descent only:
+                                        at least one parent must be a citizen of Kosovo</fo:block>
+                              <fo:block>
+                                        Dual citizenship recognized:
+                                        yes</fo:block>
+                              <fo:block>
+                                        Residency requirement for naturalization:
+                                        5 years</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Executive Branch:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Chief of state:
+                                        President Hashim THACI (since 7 April 2016)</fo:block>
+                              <fo:block>
+                                        Head of government:
+                                        Prime Minister Ramush HARADINAJ (since 9 September 2017); note - Prime Minister Isa MUSTAFA lost no-confidence vote on 10 May 2017</fo:block>
+                              <fo:block>
+                                        Cabinet:
+                                        Cabinet elected by the Assembly</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">National symbols:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>six, five-pointed, white stars</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">National anthem:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Name:
+                                        Europe</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-body>
+                  </fo:table>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt">
+               <fo:block>
+                  <fo:block font-weight="bold">Economy</fo:block>
+                  <fo:block>
+            Kosovo's economy has shown progress in transitioning to a market-based system and maintaining macroeconomic
+            stability, but it is still highly dependent on the international community and the diaspora for financial
+            and technical assistance. Remittances from the diaspora - located mainly in Germany, Switzerland, and the
+            Nordic countries - are estimated to account for about 17% of GDP and international donor assistance accounts
+            for approximately 10% of GDP. With international assistance, Kosovo has been able to privatize a majority of
+            its state-owned enterprises. Kosovo's citizens are the second poorest in Europe, after Moldova, with a per
+            capita GDP (PPP) of $9,600 in 2016. An unemployment rate of 33%, and a youth unemployment rate near 60%, in
+            a country where the average age is 26, encourages emigration and fuels a significant informal, unreported
+            economy. Emigration remains challenging, however, because Kosovo lacks visa-free travel to the EU. Most of
+            Kosovo's population lives in rural towns outside of the capital, Pristina. Inefficient, near-subsistence
+            farming is common - the result of small plots, limited mechanization, and a lack of technical expertise.
+            Kosovo enjoys lower labor costs than the rest of the region. However, high levels of corruption, little
+            contract enforcement, and unreliable electricity supply have discouraged potential investors. The official
+            currency of Kosovo is the euro, but the Serbian dinar is also used illegally in Serb majority communities.
+            Kosovo's tie to the euro has helped keep core inflation low. Minerals and metals production - including
+            lignite, lead, zinc, nickel, chrome, aluminum, magnesium, and a wide variety of construction materials -
+            once the backbone of industry, has declined because of aging equipment and insufficient investment, problems
+            exacerbated by competing and unresolved ownership claims of Kosovo’s largest mines. A limited and unreliable
+            electricity supply is a major impediment to economic development, but Kosovo has received technical
+            assistance to help improve the sector’s performance. In 2012, Kosovo privatized its electricity supply and
+            distribution network. The US Government is cooperating with the Ministry of Economic Development (MED) and
+            the World Bank to conclude a commercial tender for the construction of Kosovo C, a new lignite-fired power
+            plant that would leverage Kosovo’s large lignite reserves. MED also has plans for the rehabilitation of an
+            older coal power plant, Kosovo B, and the development of a coal mine that could supply both plants. In June
+            2009, Kosovo joined the World Bank and International Monetary Fund, and began servicing its share of the
+            former Yugoslavia's debt. In order to help integrate Kosovo into regional economic structures, UNMIK signed
+            (on behalf of Kosovo) its accession to the Central Europe Free Trade Area (CEFTA) in 2006. Kosovo joined the
+            European Bank for Reconstruction and Development in 2012 and the Council of Europe Development Bank in 2013.
+            In 2016, Kosovo implemented the Stabilization and Association Agreement (SAA) negotiations with the EU,
+            focused on trade liberalization. Under the SAA, Kosovo — which gets approximately 58% of government revenue
+            from tariffs on imports — is required to phase out tariffs on EU goods over the next seven years. In 2014,
+            nearly 60% of customs duty-eligible imports into Kosovo were EU goods. In 2015, Kosovo negotiated a $185
+            million Stand-by Arrangement (SBA) with the IMF following the conclusion of its previous SBA in 2014. The
+            IMF requested an extension of the current SBA to August 2017 to facilitate policy continuity and allow
+            sufficient time for ongoing structural reforms to progress. In August 2015, as part of its EU-facilitated
+            normalization process with Serbia, Kosovo signed agreements on telecommunications and energy distribution,
+            but disagreements over who owns economic assets, such as the Trepca mining conglomerate, within Kosovo
+            continue. Kosovo experienced its first federal budget deficit in 2012, when government expenditures climbed
+            sharply. In May 2014, the government introduced a 25% salary increase for public sector employees and an
+            equal increase in certain social benefits. Central revenues could not sustain these increases, and the
+            government was forced to reduce its planned capital investments. The government, led by Prime Minister
+            MUSTAFA - a trained economist - recently made several changes to its fiscal policy, expanding the list of
+            duty-free imports, decreasing the Value Added Tax (VAT) for basic food items and public utilities, and
+            increasing the VAT for all other goods. While Kosovo’s economy continued to make progress, it needs further
+            reform and investment to enable the level of growth required to reduce unemployment and raise living
+            standards in a meaningful way.
+        </fo:block>
+                  <fo:table margin-top="20pt">
+                     <fo:table-body>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Real Growth Rate:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                            To 2016: 3.4%
+                                        </fo:block>
+                              <fo:block>
+                                            To 2015: 4.1%
+                                        </fo:block>
+                              <fo:block>
+                                            To 2014: 1.2%
+                                        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Agriculture:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>wheat, corn, berries, potatoes, peppers, fruit; dairy, livestock; fish</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Industries:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>mineral mining, construction materials, base metals, leather, machinery, appliances, foodstuffs and beverages, textiles</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Taxes:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>20.8% of GDP</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Public Debt:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                            To 2016: 20.6%
+                                        </fo:block>
+                              <fo:block>
+                                            To 2015: 18.9%
+                                        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Imported comodities:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>foodstuffs, livestock, wood, petroleum, chemicals, machinery, minerals, textiles, stone, ceramic and glass products, electrical equipment</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Import partners:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>Macedonia:
+                                            34.1</fo:block>
+                              <fo:block>Turkey:
+                                            12</fo:block>
+                              <fo:block>Germany:
+                                            9.4</fo:block>
+                              <fo:block>Albania:
+                                            7.4</fo:block>
+                              <fo:block>Slovenia:
+                                            6.9</fo:block>
+                              <fo:block>Italy:
+                                            4.6</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Exported comodities:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>mining and processed metal products, scrap metals, leather products, machinery, appliances, prepared foodstuffs, beverages and tobacco, vegetable products, textiles and apparel</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Export partners:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>Albania:
+                                            24.2</fo:block>
+                              <fo:block>Macedonia:
+                                            17.3</fo:block>
+                              <fo:block>Germany:
+                                            8.8</fo:block>
+                              <fo:block>Switzerland:
+                                            7.7</fo:block>
+                              <fo:block>Bulgaria:
+                                            7.5</fo:block>
+                              <fo:block>Netherlands:
+                                            6.9</fo:block>
+                              <fo:block>Turkey:
+                                            4.6</fo:block>
+                              <fo:block>Austria:
+                                            4.4</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-body>
+                  </fo:table>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt" text-align="justify">
+               <fo:block>
+                  <fo:table>
+                     <fo:table-header>
+                        <fo:table-row>
+                           <fo:table-cell>
+                              <fo:block font-weight="bold">Energy</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-header>
+                     <fo:table-body>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Electricity:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Access:
+                                        100%</fo:block>
+                              <fo:block>
+                                        Production:
+                                        5.324 billion kWh</fo:block>
+                              <fo:block>
+                                        Consumption:
+                                        2.887 billion kWh</fo:block>
+                              <fo:block>
+                                        Exports:
+                                        474.8 million kWh</fo:block>
+                              <fo:block>
+                                        Imports:
+                                        875 million kWh</fo:block>
+                              <fo:block>
+                                        Generating capacity:
+                                        1.6 million kW</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Crude oil:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Production:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Exports:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Imports:
+                                        0 bbl/day</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Petroleum:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Production:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Consumption:
+                                        13.000 bbl/day</fo:block>
+                              <fo:block>
+                                        Exports:
+                                        17 bbl/day</fo:block>
+                              <fo:block>
+                                        Imports:
+                                        12.160 bbl/day</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Natural gas:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Production:
+                                        0 cu m</fo:block>
+                              <fo:block>
+                                        Consumption:
+                                        0 cu m</fo:block>
+                              <fo:block>
+                                        Proved reserves:
+                                        N/A</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Carbon Dioxide</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>7.576 million Mt</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-body>
+                  </fo:table>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:block>
+               <fo:table>
+                  <fo:table-header>
+                     <fo:table-row>
+                        <fo:table-cell>
+                           <fo:block font-weight="bold">Communications</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-header>
+                  <fo:table-body>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Telephones:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                                    No. of fixed lines:
+                                    831.470</fo:block>
+                           <fo:block>
+                                    No. of mobile lines:
+                                    562.000</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-body>
+               </fo:table>
+            </fo:block>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Transportation</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Roadways:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Paved:
+                                1883 km
+                            </fo:block>
+                        <fo:block>Unpaved:
+                                120 km
+                            </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Railways:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>
+                                Total: 334 km
+                            </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Airports:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>6</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Civil aircraft country code:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Z6</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Military security</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Branches:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>
+            Kosovo does not have a military force; the Kosovo Security Force was established in 2009 and maintains a
+            non-military mandate in four core competencies: search-and-rescue, firefighting, demining, and hazardous
+            material response (2015)
+        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Transnational issues</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Disputes:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>
+            Serbia with several other states protest the US and other states' recognition of Kosovo's declaration of its
+            status as a sovereign and independent state in February 2008; ethnic Serbian municipalities along Kosovo's
+            northern border challenge final status of Kosovo-Serbia boundary; several thousand NATO-led Kosovo Force
+            peacekeepers under UN Interim Administration Mission in Kosovo authority continue to keep the peace within
+            Kosovo between the ethnic Albanian majority and the Serb minority in Kosovo; Kosovo and Macedonia completed
+            demarcation of their boundary in September 2008
+        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block page-break-before="always"/>
+         <fo:block font-size="15pt" font-weight="bold" text-align="center" id="sc">Seychelles</fo:block>
+         <fo:block padding-top="15pt">
+            <fo:block font-weight="bold">Overview</fo:block>
+        A lengthy struggle between France and Great Britain for the islands ended in 1814, when they were ceded to the
+        latter. Independence came in 1976. Single-party rule was brought to a close with a new constitution and free
+        elections in 1993. President France-Albert RENE, who had served since 1977, was reelected in 2001, but stepped
+        down in 2004. Vice President James Alix MICHEL took over the presidency and in July 2006 was elected to a new
+        five-year term; he was reelected in May 2011 and again in December 2015. In October 2016, James MICHEL resigned
+        and handed over the presidency to his Vice-President Danny FAURE.
+    </fo:block>
+         <fo:block font-weight="bold" margin-top="10pt">Images</fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/graphics/flags/large/se-lgflag.gif')&#xA;                        "/>
+            </fo:block>
+            <fo:block>Five oblique bands of blue (hoist side), yellow, red, white, and green (bottom) radiating from the bottom of the hoist side; the oblique bands are meant to symbolize a dynamic new country moving into the future; blue represents sky and sea, yellow the sun giving light and life, red the peoples' determination to work for the future in unity and love, white social justice and harmony, green the land and natural environment</fo:block>
+         </fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/graphics/locator/afr/se_large_locator.gif')&#xA;                        "/>
+            </fo:block>
+            <fo:block/>
+         </fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/graphics/maps/se-map.gif')&#xA;                        "/>
+            </fo:block>
+            <fo:block/>
+         </fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/photo_gallery/se/images/SE_001.jpg')&#xA;                        "/>
+            </fo:block>
+            <fo:block>The Republic of Seychelles is an island country spanning an archipelago of 155 islands in the Indian Ocean. It is about 1,500 km (930 mi) east of the African continent, and spreads out over a vast area of ocean north of Madagascar. Independent from the UK since 1976, the country nevertheless is far more French after years of early French settlement and influence. Since independence, tourism has grown dramatically to become the primary industry of Seychelles, overtaking plantation agriculture. This 2010 image of some of the northern Seychelles islands covers an area of 54 x 66 km (34 x 41 mi). Photo courtesy of NASA.</fo:block>
+         </fo:block>
+         <fo:block margin-top="10pt">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Geography</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Location:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>archipelago in the Indian Ocean, northeast of Madagascar</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Area:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>455sq km,
+                                0sq km</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Coastline:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>491km</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Area comparison:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>2.5 times the size of Washington, DC</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Map reference:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Africa</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Climate:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>tropical marine; humid; cooler season during southeast monsoon (late May to September); warmer season during northwest monsoon (March to May)</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Terrain:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Mahe Group is volcanic with a narrow coastal strip and rocky, hilly interior; others are coral, flat, elevated reefs</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Natural resources:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>fish, coconuts (copra), cinnamon trees</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Natural hazards:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>lies outside the cyclone belt, so severe storms are rare; occasional short droughts</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt">
+               <fo:table>
+                  <fo:table-header>
+                     <fo:table-row>
+                        <fo:table-cell>
+                           <fo:block font-weight="bold">Society</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-header>
+                  <fo:table-body>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Population:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>93920</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Median age (in years):
+                                </fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                                    Male: 34.9,
+                                    Female:
+                                    36</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Ethnic groups:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                              <fo:block>French</fo:block>
+                              <fo:block>African</fo:block>
+                              <fo:block>Indian</fo:block>
+                              <fo:block>Chinese</fo:block>
+                              <fo:block>Arab-Mauritian</fo:block>
+                           </fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Languages:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>Seychellois Creole (official)</fo:block>
+                           <fo:block>English (official)</fo:block>
+                           <fo:block>French (official)</fo:block>
+                           <fo:block>Other</fo:block>
+                           <fo:block>Unspecified</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Religions:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>76.2%
+                                        Roman Catholic</fo:block>
+                           <fo:block>10.5%
+                                        Protestant</fo:block>
+                           <fo:block>2.4%
+                                        Christian</fo:block>
+                           <fo:block>2.4%
+                                        Hindu</fo:block>
+                           <fo:block>1.6%
+                                        Muslim</fo:block>
+                           <fo:block>1.1%
+                                        Non-Christian</fo:block>
+                           <fo:block>4.8%
+                                        Unspecified</fo:block>
+                           <fo:block>0.9%
+                                        None</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Age structure:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>0-14:
+                                        19.88%
+                                    </fo:block>
+                           <fo:block>15-24:
+                                        13.24%
+                                    </fo:block>
+                           <fo:block>25-54:
+                                        49.36%
+                                    </fo:block>
+                           <fo:block>55-64:
+                                        9.88%
+                                    </fo:block>
+                           <fo:block>65-over:
+                                        7.64%
+                                    </fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-body>
+               </fo:table>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt">
+               <fo:block>
+                  <fo:table>
+                     <fo:table-header>
+                        <fo:table-row>
+                           <fo:table-cell>
+                              <fo:block font-weight="bold">Government</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-header>
+                     <fo:table-body>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Type:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>presidential republic</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Country names:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>Republic of Seychelles,
+                                        Seychelles</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Country divisions:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            25 administrative districts; Anse aux Pins, Anse Boileau, Anse Etoile, Anse Royale, Au Cap, Baie Lazare,
+            Baie Sainte Anne, Beau Vallon, Bel Air, Bel Ombre, Cascade, Glacis, Grand Anse Mahe, Grand Anse Praslin,
+            Inner Islands, La Riviere Anglaise, Les Mamalles, Mont Buxton, Mont Fleuri, Plaisance, Pointe Larue, Port
+            Glaud, Roche Caiman, Saint Louis, Takamaka
+        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Capital city:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+
+        4 37S
+                                            55 27E
+                                            </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Independence date:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>29 June 1976</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Legal system:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            mixed legal system of English common law, French civil law, and customary law
+        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">International Law:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction
+        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Citizenship:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>By birth:
+                                        no</fo:block>
+                              <fo:block>
+                                        By descent only:
+                                        at least one parent must be a citizen of the Seychelles</fo:block>
+                              <fo:block>
+                                        Dual citizenship recognized:
+                                        no</fo:block>
+                              <fo:block>
+                                        Residency requirement for naturalization:
+                                        5 years</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Executive Branch:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Chief of state:
+                                        President Danny FAURE (since 16 October 2016); Vice President Vincent MERITON (since 28 October 2016); note - James Alix MICHEL resigned the presidency effective 16 October 2016; the president is both chief of state and head of government</fo:block>
+                              <fo:block>
+                                        Head of government:
+                                        President Danny FAURE (since 16 October 2016); Vice President Vincent MERITON (since 28 October 2016); note - James Alix MICHEL resigned the presidency effective 16 October 2016</fo:block>
+                              <fo:block>
+                                        Cabinet:
+                                        Council of Ministers appointed by the president</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">National symbols:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>coco de mer (sea coconut)</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">National anthem:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Name:
+                                        "Koste Seselwa"</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-body>
+                  </fo:table>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt">
+               <fo:block>
+                  <fo:block font-weight="bold">Economy</fo:block>
+                  <fo:block>
+            Since independence in 1976, per capita output in this Indian Ocean archipelago has expanded to roughly seven
+            times the pre-independence, near-subsistence level, moving the island into the upper-middle-income group of
+            countries. Growth has been led by the tourist sector, which employs about 30% of the labor force and
+            provides more than 70% of hard currency earnings, and by tuna fishing.
+            In recent years, the government has encouraged foreign investment to upgrade hotels and other services. At
+            the same time, the government has moved to reduce the dependence on tourism by promoting the development of
+            farming, fishing, and small-scale manufacturing.
+            In 2008, having depleted its foreign exchange reserves, Seychelles defaulted on interest payments due on a
+            $230 million Eurobond, requested assistance from the IMF, and immediately enacted a number of significant
+            structural reforms, including liberalization of the exchange rate, reform of the public sector to include
+            layoffs, and the sale of some state assets. In December 2013, the IMF declared that Seychelles had
+            successfully transitioned to a market-based economy with full employment and a fiscal surplus. Effective 1
+            January 2017, Seychelles will no longer be eligible for trade benefits under the US African Growth and
+            Opportunities Act after having gained developed country status. Seychelles grew at 4.9% in 2016 because of a
+            strong tourist sector and low commodity prices; its fiscal surplus reached 3% of GDP. The Seychellois
+            Government met the IMF’s performance criteria for 2016 but recognizes a need to make additional progress to
+            combat high poverty levels, estimated at 39% in 2013.
+        </fo:block>
+                  <fo:table margin-top="20pt">
+                     <fo:table-body>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Real Growth Rate:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                            To 2016: 4.5%
+                                        </fo:block>
+                              <fo:block>
+                                            To 2015: 5%
+                                        </fo:block>
+                              <fo:block>
+                                            To 2014: 4.5%
+                                        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Agriculture:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>coconuts, cinnamon, vanilla, sweet potatoes, cassava (manioc, tapioca), copra, bananas; tuna</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Industries:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>fishing, tourism, beverages</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Taxes:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>38.5% of GDP</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Public Debt:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                            To 2016: 57.6%
+                                        </fo:block>
+                              <fo:block>
+                                            To 2015: 62.9%
+                                        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Imported comodities:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>machinery and equipment, foodstuffs, petroleum products, chemicals, other manufactured goods</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Import partners:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>UAE:
+                                            21.6</fo:block>
+                              <fo:block>France:
+                                            9.9</fo:block>
+                              <fo:block>South Africa:
+                                            8.4</fo:block>
+                              <fo:block>Mauritius:
+                                            7.8</fo:block>
+                              <fo:block>Spain:
+                                            7.2</fo:block>
+                              <fo:block>India:
+                                            4.9</fo:block>
+                              <fo:block>China:
+                                            4.8</fo:block>
+                              <fo:block>UK:
+                                            4.7</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Exported comodities:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>canned tuna, frozen fish, petroleum products (reexports)</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Export partners:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>UAE:
+                                            28.8</fo:block>
+                              <fo:block>France:
+                                            21</fo:block>
+                              <fo:block>UK:
+                                            14.7</fo:block>
+                              <fo:block>Italy:
+                                            9.2</fo:block>
+                              <fo:block>Spain:
+                                            8.8</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-body>
+                  </fo:table>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt" text-align="justify">
+               <fo:block>
+                  <fo:table>
+                     <fo:table-header>
+                        <fo:table-row>
+                           <fo:table-cell>
+                              <fo:block font-weight="bold">Energy</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-header>
+                     <fo:table-body>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Electricity:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Access:
+                                        97%</fo:block>
+                              <fo:block>
+                                        Production:
+                                        400 million kWh</fo:block>
+                              <fo:block>
+                                        Consumption:
+                                        300 million kWh</fo:block>
+                              <fo:block>
+                                        Exports:
+                                        0 kWh</fo:block>
+                              <fo:block>
+                                        Imports:
+                                        0 kWh</fo:block>
+                              <fo:block>
+                                        Generating capacity:
+                                        100,000 kW</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Crude oil:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Production:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Exports:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Imports:
+                                        0 bbl/day</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Petroleum:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Production:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Consumption:
+                                        6,500 bbl/day</fo:block>
+                              <fo:block>
+                                        Exports:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Imports:
+                                        5,956 bbl/day</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Natural gas:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Production:
+                                        0 cu m</fo:block>
+                              <fo:block>
+                                        Consumption:
+                                        0 cu m</fo:block>
+                              <fo:block>
+                                        Proved reserves:
+                                        0 cu m</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Carbon Dioxide</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>1.4 million Mt</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-body>
+                  </fo:table>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:block>
+               <fo:table>
+                  <fo:table-header>
+                     <fo:table-row>
+                        <fo:table-cell>
+                           <fo:block font-weight="bold">Communications</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-header>
+                  <fo:table-body>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Telephones:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                                    No. of fixed lines:
+                                    20,836</fo:block>
+                           <fo:block>
+                                    No. of mobile lines:
+                                    151,857</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Broadcast media:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+        
+            
+            
+        
+        
+            the government operates the only terrestrial TV station, which provides local programming and airs
+            broadcasts from international services; multi-channel cable and satellite TV are available through 2
+            providers; the government operates 1 AM and 1 FM radio station; there is 1 privately operated radio station;
+            transmissions of 2 international broadcasters are accessible in Victoria
+        
+        
+            
+        
+    </fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Internet information</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                                            Country code:
+                                            .sc</fo:block>
+                           <fo:block>
+                                            Users: 52,664,
+                                            percentage:
+                                            56.5</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-body>
+               </fo:table>
+            </fo:block>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Transportation</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Roadways:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Paved:
+                                514 0 km
+                            </fo:block>
+                        <fo:block>Unpaved:
+                                12 0 km
+                            </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Railways:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>
+                                Total: 0 km
+                            </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Airports:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>14</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Civil aircraft country code:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>S7</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Military security</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Branches:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>
+            Seychelles People's Defense Forces (SPDF): Army (includes infantry, Special Forces (Tazar)), Coast Guard
+            (includes Naval Wing, Air Wing)
+        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Transnational issues</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Disputes:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>
+            Mauritius and Seychelles claim the Chagos Islands (UK-administered British Indian Ocean Territory)
+        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block page-break-before="always"/>
+         <fo:block font-size="15pt" font-weight="bold" text-align="center" id="kn">Saint Kitts and Nevis</fo:block>
+         <fo:block padding-top="15pt">
+            <fo:block font-weight="bold">Overview</fo:block>
+        Carib Indians occupied the islands of the West Indies for hundreds of years before the British began settlement
+        in 1623. In 1967, the island territory of Saint Christopher-Nevis-Anguilla became an associated state of the UK
+        with full internal autonomy. The island of Anguilla rebelled and was allowed to secede in 1971. The remaining
+        islands achieved independence in 1983 as Saint Kitts and Nevis. In 1998, a referendum on Nevis to separate from
+        Saint Kitts fell short of the two-thirds majority vote needed. Nevis continues in its efforts to separate from
+        Saint Kitts.
+    </fo:block>
+         <fo:block font-weight="bold" margin-top="10pt">Images</fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/graphics/maps/sc-map.gif')&#xA;                        "/>
+            </fo:block>
+            <fo:block/>
+         </fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/graphics/locator/cam/sc_large_locator.gif')&#xA;                        "/>
+            </fo:block>
+            <fo:block/>
+         </fo:block>
+         <fo:block text-align="center" padding-top="25pt">
+            <fo:block>
+               <fo:external-graphic height="150pt"
+                                    content-width="scale-to-fit"
+                                    scaling="uniform"
+                                    src="url('https://www.cia.gov/library/publications/the-world-factbook/graphics/flags/large/sc-lgflag.gif')&#xA;                        "/>
+            </fo:block>
+            <fo:block>Divided diagonally from the lower hoist side by a broad black band bearing two white, five-pointed stars; the black band is edged in yellow; the upper triangle is green, the lower triangle is red; green signifies the island's fertility, red symbolizes the struggles of the people from slavery, yellow denotes year-round sunshine, and black represents the African heritage of the people; the white stars stand for the islands of Saint Kitts and Nevis, but can also express hope and liberty, or independence and optimism</fo:block>
+         </fo:block>
+         <fo:block margin-top="10pt">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Geography</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Location:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Caribbean, islands in the Caribbean Sea, about one-third of the way from Puerto Rico to Trinidad and Tobago</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Area:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>261sq km,
+                                0sq km</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Coastline:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>135km</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Area comparison:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>1.5 times the size of Washington, DC</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Map reference:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Central America and the Caribbean</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Climate:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>tropical, tempered by constant sea breezes; little seasonal temperature variation; rainy season (May to November)</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Terrain:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>volcanic with mountainous interiors</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Natural resources:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>arable land</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Natural hazards:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>hurricanes (July to October)</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt">
+               <fo:table>
+                  <fo:table-header>
+                     <fo:table-row>
+                        <fo:table-cell>
+                           <fo:block font-weight="bold">Society</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-header>
+                  <fo:table-body>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Population:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>52715</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Median age (in years):
+                                </fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                                    Male: 35.2,
+                                    Female:
+                                    34.8</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Ethnic groups:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                              <fo:block>British</fo:block>
+                              <fo:block>Portuguese</fo:block>
+                              <fo:block>Lebanese</fo:block>
+                           </fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Languages:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                English (official)
+            </fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Religions:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>20.6%
+                                        Anglican</fo:block>
+                           <fo:block>19.1%
+                                        Protestant</fo:block>
+                           <fo:block>6.7%
+                                        Roman Catholic</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Age structure:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>0-14:
+                                        20.32%
+                                    </fo:block>
+                           <fo:block>15-24:
+                                        14.54%
+                                    </fo:block>
+                           <fo:block>25-54:
+                                        44.6%
+                                    </fo:block>
+                           <fo:block>55-64:
+                                        11.9%
+                                    </fo:block>
+                           <fo:block>65-over:
+                                        8.64%
+                                    </fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-body>
+               </fo:table>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt">
+               <fo:block>
+                  <fo:table>
+                     <fo:table-header>
+                        <fo:table-row>
+                           <fo:table-cell>
+                              <fo:block font-weight="bold">Government</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-header>
+                     <fo:table-body>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Type:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>federal parliamentary democracy (National Assembly) under a constitutional monarchy; a Commonwealth realm</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Country names:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>Federation of Saint Kitts and Nevis,
+                                        Saint Kitts and Nevis</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Country divisions:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            14 parishes; Christ Church Nichola Town, Saint Anne Sandy Point, Saint George Basseterre, Saint George
+            Gingerland, Saint James Windward, Saint John Capesterre, Saint John Figtree, Saint Mary Cayon, Saint Paul
+            Capesterre, Saint Paul Charlestown, Saint Peter Basseterre, Saint Thomas Lowland, Saint Thomas Middle
+            Island, Trinity Palmetto Point
+        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Capital city:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            Basseterre
+        17 18N
+                                            62 43W
+                                            </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Independence date:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>19 September 1983</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Legal system:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            English common law
+        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">International Law:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+            has not submitted an ICJ jurisdiction declaration; accepts ICCt jurisdiction
+        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Citizenship:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>By birth:
+                                        yes</fo:block>
+                              <fo:block>
+                                        By descent only:
+                                        yes</fo:block>
+                              <fo:block>
+                                        Dual citizenship recognized:
+                                        yes</fo:block>
+                              <fo:block>
+                                        Residency requirement for naturalization:
+                                        14 years</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Executive Branch:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Chief of state:
+                                        Queen ELIZABETH II (since 6 February 1952); represented by Governor General Samuel W.T. SEATON (since 2 September 2015); note - SEATON was acting Governor General from 20 May to 2 September 2015</fo:block>
+                              <fo:block>
+                                        Head of government:
+                                        President Joko WIDODO (since 20 October 2014); Vice President Jusuf KALLA (since 20 October 2014)</fo:block>
+                              <fo:block>
+                                        Cabinet:
+                                        Cabinet appointed by governor general in consultation with prime minister</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">National symbols:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>brown pelican, Royal Poinciana (Flamboyant) tree</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">National anthem:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Name:
+                                        Oh Land of Beauty!</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-body>
+                  </fo:table>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt">
+               <fo:block>
+                  <fo:block font-weight="bold">Economy</fo:block>
+                  <fo:block>
+            The economy of Saint Kitts and Nevis depends on tourism; since the 1970s, tourism has replaced sugar as the
+            economy’s traditional mainstay. Roughly 200,000 tourists visited the islands in 2009, but reduced tourism
+            arrivals and foreign investment led to an economic contraction in the 2009-2013 period, and the economy
+            returned to growth only in 2014. Like other tourist destinations in the Caribbean, Saint Kitts and Nevis is
+            vulnerable to damage from natural disasters and shifts in tourism demand.
+            Following the 2005 harvest, the government closed the sugar industry after several decades of losses. To
+            compensate for lost jobs, the government has embarked on a program to diversify the agricultural sector and
+            to stimulate other sectors of the economy, such as export-oriented manufacturing and offshore banking. The
+            government has made notable progress in reducing its public debt, from 154% of GDP in 2011 to 83% in 2013,
+            although it still faces one of the highest levels in the world, largely attributable to public enterprise
+            losses. Saint Kitts and Nevis is among other countries in the Caribbean that supplement their economic
+            activity through economic citizenship programs, whereby foreigners can obtain citizenship from Saint Kitts
+            and Nevis by investing there.
+        </fo:block>
+                  <fo:table margin-top="20pt">
+                     <fo:table-body>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Real Growth Rate:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                            To 2016: 3.1%
+                                        </fo:block>
+                              <fo:block>
+                                            To 2015: 4.9%
+                                        </fo:block>
+                              <fo:block>
+                                            To 2014: 5.1%
+                                        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Agriculture:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>sugarcane, rice, yams, vegetables, bananas; fish</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Industries:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>tourism, cotton, salt, copra, clothing, footwear, beverages</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Taxes:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>41% of GDP</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Public Debt:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                            To 2016: 65.8%
+                                        </fo:block>
+                              <fo:block>
+                                            To 2015: 70.6%
+                                        </fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Imported comodities:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>machinery, manufactures, food, fuels</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Import partners:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>US:
+                                            56.8</fo:block>
+                              <fo:block>Trinidad and Tobago:
+                                            6.8</fo:block>
+                              <fo:block>Cyprus:
+                                            6.2</fo:block>
+                              <fo:block>Japan:
+                                            4</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Exported comodities:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>machinery, food, electronics, beverages, tobacco</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Export partners:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>US:
+                                            49.6</fo:block>
+                              <fo:block>Poland:
+                                            15.2</fo:block>
+                              <fo:block>Turkey:
+                                            11.6</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-body>
+                  </fo:table>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block page-break-before="always">
+            <fo:block margin-top="10pt" text-align="justify">
+               <fo:block>
+                  <fo:table>
+                     <fo:table-header>
+                        <fo:table-row>
+                           <fo:table-cell>
+                              <fo:block font-weight="bold">Energy</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-header>
+                     <fo:table-body>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Electricity:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Access:
+                                        91%</fo:block>
+                              <fo:block>
+                                        Production:
+                                        200 million kWh</fo:block>
+                              <fo:block>
+                                        Consumption:
+                                        200 million kWh</fo:block>
+                              <fo:block>
+                                        Exports:
+                                        0 kWh</fo:block>
+                              <fo:block>
+                                        Imports:
+                                        0 kWh</fo:block>
+                              <fo:block>
+                                        Generating capacity:
+                                        64,200 kW</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Crude oil:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Production:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Exports:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Imports:
+                                        0 bbl/day</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Petroleum:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Production:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Consumption:
+                                        1900 bbl/day</fo:block>
+                              <fo:block>
+                                        Exports:
+                                        0 bbl/day</fo:block>
+                              <fo:block>
+                                        Imports:
+                                        1907 bbl/day</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Natural gas:</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>
+                                        Production:
+                                        0 cu m</fo:block>
+                              <fo:block>
+                                        Consumption:
+                                        0 cu m</fo:block>
+                              <fo:block>
+                                        Proved reserves:
+                                        0 cu m</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                        <fo:table-row>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block font-weight="bold">Carbon Dioxide</fo:block>
+                           </fo:table-cell>
+                           <fo:table-cell border="solid black 1px" padding="2px">
+                              <fo:block>300,000 Mt</fo:block>
+                           </fo:table-cell>
+                        </fo:table-row>
+                     </fo:table-body>
+                  </fo:table>
+               </fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:block>
+               <fo:table>
+                  <fo:table-header>
+                     <fo:table-row>
+                        <fo:table-cell>
+                           <fo:block font-weight="bold">Communications</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-header>
+                  <fo:table-body>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Telephones:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                                    No. of fixed lines:
+                                    17.433</fo:block>
+                           <fo:block>
+                                    No. of mobile lines:
+                                    76.583</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Broadcast media:</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+        
+            
+            
+        
+        
+            the government operates a national TV network that broadcasts on 2 channels; cable subscription services
+            provide access to local and international channels; the government operates a national radio network; a mix
+            of government-owned and privately owned broadcasters operate roughly 15 radio stations
+        
+        
+            
+        
+    </fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                     <fo:table-row>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block font-weight="bold">Internet information</fo:block>
+                        </fo:table-cell>
+                        <fo:table-cell border="solid black 1px" padding="2px">
+                           <fo:block>
+                                            Country code:
+                                            .kn</fo:block>
+                           <fo:block>
+                                            Users: 39 000,
+                                            percentage:
+                                            75.7</fo:block>
+                        </fo:table-cell>
+                     </fo:table-row>
+                  </fo:table-body>
+               </fo:table>
+            </fo:block>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Transportation</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Roadways:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>Paved:
+                                163 km
+                            </fo:block>
+                        <fo:block>Unpaved:
+                                220 km
+                            </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Railways:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>
+                                Total: 50 km
+                            </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Airports:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>2</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Civil aircraft country code:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>V4</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Military security</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Branches:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>
+            Ministry of Foreign Affairs, National Security, Labour, Immigration, and Social Security: Royal Saint Kitts
+            and Nevis Defense Force (includes Coast Guard), Royal Saint Kitts and Nevis Police Force
+        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+         <fo:block margin-top="10pt" text-align="justify">
+            <fo:table>
+               <fo:table-header>
+                  <fo:table-row>
+                     <fo:table-cell>
+                        <fo:block font-weight="bold">Transnational issues</fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-header>
+               <fo:table-body>
+                  <fo:table-row>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block font-weight="bold">Disputes:</fo:block>
+                     </fo:table-cell>
+                     <fo:table-cell border="solid black 1px" padding="2px">
+                        <fo:block>
+            joins other Caribbean states to counter Venezuela's claim that Aves Island sustains human habitation, a
+            criterion under UN Convention on the Law of the Sea, which permits Venezuela to extend its EEZ/continental
+            shelf over a large portion of the eastern Caribbean Sea
+        </fo:block>
+                     </fo:table-cell>
+                  </fo:table-row>
+               </fo:table-body>
+            </fo:table>
+         </fo:block>
+      </fo:flow>
+   </fo:page-sequence>
+</fo:root>

@@ -1,0 +1,26 @@
+nav {
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+ul, ol {
+    margin: 0;
+    -webkit-padding-start: 22px;
+}
+
+#images {
+    display: inline-flex;
+}
+
+.materialboxed {
+    margin: 5px;
+}
+
+.materialbox-caption {
+    text-overflow: ellipsis;
+    overflow: hidden !important;
+    white-space: nowrap;
+}
